@@ -1,0 +1,791 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/2/2019 6:51:01 PM
+
+Message: HandlingInstanceID: d0eab8fa-1510-4d36-9fe3-dcd1a2226b5d
+An exception of type 'Telerik.OpenAccess.Exceptions.AuthorizationException' occurred and was caught.
+----------------------------------------------------------------------------------------------------
+10/02/2019 14:51:01
+Type : Telerik.OpenAccess.Exceptions.AuthorizationException, Telerik.OpenAccess, Version=2018.0.1127.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Login failed for user 'blateaux'.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: Login failed for user 'blateaux'. ---> System.Data.SqlClient.SqlException: Login failed for user 'blateaux'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_9bb74a4ce9ca4707bc555eb0a8d1e3a4.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : YATHI
+TimeStamp : 10/2/2019 6:51:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=12.1.7100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132145158472495796
+ThreadIdentity : 
+WindowsIdentity : YATHI\szowa
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2018.0.1127.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Login failed for user 'blateaux'.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 18456
+	ArrayBindIndex : -1
+	Number : 18456
+	ObjectId : 
+	Description : Login failed for user 'blateaux'.
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Login failed for user 'blateaux'.
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : ad032000-398b-4295-a5ce-adf72b4697f1
+		Class : 14
+		LineNumber : 65536
+		Number : 18456
+		Procedure : 
+		Server : tcp:aquarion.database.windows.net,1433
+		State : 1
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: YATHI
+
+App Domain: /LM/W3SVC/2/ROOT-1-132145158472495796
+
+ProcessId: 17300
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7336
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/2/2019 6:51:01 PM
+
+Message: HandlingInstanceID: 4e60312b-8b2d-4549-95a9-bcb41e5fe673
+An exception of type 'Telerik.OpenAccess.Exceptions.AuthorizationException' occurred and was caught.
+----------------------------------------------------------------------------------------------------
+10/02/2019 14:51:01
+Type : Telerik.OpenAccess.Exceptions.AuthorizationException, Telerik.OpenAccess, Version=2018.0.1127.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Login failed for user 'blateaux'.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: Login failed for user 'blateaux'. ---> System.Data.SqlClient.SqlException: Login failed for user 'blateaux'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_9bb74a4ce9ca4707bc555eb0a8d1e3a4.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : YATHI
+TimeStamp : 10/2/2019 6:51:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=12.1.7100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132145158472495796
+ThreadIdentity : 
+WindowsIdentity : YATHI\szowa
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2018.0.1127.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Login failed for user 'blateaux'.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 18456
+	ArrayBindIndex : -1
+	Number : 18456
+	ObjectId : 
+	Description : Login failed for user 'blateaux'.
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Login failed for user 'blateaux'.
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 48be7049-2b77-4466-8ae2-3f72ecb936df
+		Class : 14
+		LineNumber : 65536
+		Number : 18456
+		Procedure : 
+		Server : tcp:aquarion.database.windows.net,1433
+		State : 1
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: YATHI
+
+App Domain: /LM/W3SVC/2/ROOT-1-132145158472495796
+
+ProcessId: 17300
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7336
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/2/2019 6:51:02 PM
+
+Message: Timestamp: 10/2/2019 6:51:02 PM
+Message: Telerik.OpenAccess.Exceptions.AuthorizationException: Login failed for user 'blateaux'. ---> Telerik.OpenAccess.RT.sql.SQLException: Login failed for user 'blateaux'. ---> System.Data.SqlClient.SqlException: Login failed for user 'blateaux'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+   --- End of inner exception stack trace ---
+   at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_9bb74a4ce9ca4707bc555eb0a8d1e3a4.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.SetProvider(String providerName, String transactionName)
+   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+   at Telerik.Sitefinity.Data.Metadata.MetadataManager..ctor()
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: YATHI
+App Domain: /LM/W3SVC/2/ROOT-1-132145158472495796
+ProcessId: 17300
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:7336
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: YATHI
+
+App Domain: /LM/W3SVC/2/ROOT-1-132145158472495796
+
+ProcessId: 17300
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7336
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 10/2/2019 6:51:02 PM
+
+Message: HandlingInstanceID: 538def26-d2fd-468d-bd0e-5d3259ed64de
+An exception of type 'Telerik.OpenAccess.Exceptions.AuthorizationException' occurred and was caught.
+----------------------------------------------------------------------------------------------------
+10/02/2019 14:51:02
+Type : Telerik.OpenAccess.Exceptions.AuthorizationException, Telerik.OpenAccess, Version=2018.0.1127.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Login failed for user 'blateaux'.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: Login failed for user 'blateaux'. ---> System.Data.SqlClient.SqlException: Login failed for user 'blateaux'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_9bb74a4ce9ca4707bc555eb0a8d1e3a4.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : YATHI
+TimeStamp : 10/2/2019 6:51:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=12.1.7100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132145158472495796
+ThreadIdentity : 
+WindowsIdentity : YATHI\szowa
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2018.0.1127.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Login failed for user 'blateaux'.
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 18456
+	ArrayBindIndex : -1
+	Number : 18456
+	ObjectId : 
+	Description : Login failed for user 'blateaux'.
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+
+		Inner Exception
+		---------------
+		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Login failed for user 'blateaux'.
+		Source : .Net SqlClient Data Provider
+		Help link : 
+		Errors : System.Data.SqlClient.SqlErrorCollection
+		ClientConnectionId : 26300e93-82f7-4ff6-bc18-29697e5c6973
+		Class : 14
+		LineNumber : 65536
+		Number : 18456
+		Procedure : 
+		Server : tcp:aquarion.database.windows.net,1433
+		State : 1
+		ErrorCode : -2146232060
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+		HResult : -2146232060
+		Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+		   at System.Data.SqlClient.SqlConnection.Open()
+		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: YATHI
+
+App Domain: /LM/W3SVC/2/ROOT-1-132145158472495796
+
+ProcessId: 17300
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3796
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bdd3c34f-3f13-46d7-87bb-6c773dd7bb5c
+
+Timestamp: 10/2/2019 7:25:38 PM
+
+Message: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Web.Http.Owin.HttpMessageHandlerAdapter.<SendResponseContentAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Web.Http.Owin.HttpMessageHandlerAdapter.<InvokeCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.SignOutMessageCookieExtension.<>c.<<ConfigureSignOutMessageCookie>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.UseCookieAuthenticationExtension.<>c__DisplayClass0_0.<<ConfigureCookieAuthentication>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Cors.CorsMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.OwinExtensions.<>c__DisplayClass0_0.<<UseAutofacMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureRenderLoggedOutPageExtension.<>c.<<ConfigureRenderLoggedOutPage>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureRequestBodyBufferExtension.<>c.<<ConfigureRequestBodyBuffer>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureIdentityServerIssuerExtension.<>c__DisplayClass0_1.<<ConfigureIdentityServerIssuer>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureIdentityServerBaseUrlExtension.<>c__DisplayClass0_0.<<ConfigureIdentityServerBaseUrl>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureRequestIdExtension.<>c.<<ConfigureRequestId>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.IdentityServer.IdentityServerCookieTransformationMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.IdentityServer.ChangeResponseStatusCodeMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthenticationExtensions.<>c.<<EnsureCurrentPathIsFrontend>b__10_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SecurityTokenServiceMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: YATHI
+
+App Domain: /LM/W3SVC/2/ROOT-1-132145175289009800
+
+ProcessId: 21760
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5408
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c978ea61-674a-457c-bea1-57162353ca02
+
+Timestamp: 10/2/2019 7:25:39 PM
+
+Message: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Web.Http.Owin.HttpMessageHandlerAdapter.<SendResponseContentAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Web.Http.Owin.HttpMessageHandlerAdapter.<InvokeCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.SignOutMessageCookieExtension.<>c.<<ConfigureSignOutMessageCookie>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.UseCookieAuthenticationExtension.<>c__DisplayClass0_0.<<ConfigureCookieAuthentication>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Cors.CorsMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.OwinExtensions.<>c__DisplayClass0_0.<<UseAutofacMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureRenderLoggedOutPageExtension.<>c.<<ConfigureRenderLoggedOutPage>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureRequestBodyBufferExtension.<>c.<<ConfigureRequestBodyBuffer>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureIdentityServerIssuerExtension.<>c__DisplayClass0_1.<<ConfigureIdentityServerIssuer>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureIdentityServerBaseUrlExtension.<>c__DisplayClass0_0.<<ConfigureIdentityServerBaseUrl>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureRequestIdExtension.<>c.<<ConfigureRequestId>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.IdentityServer.IdentityServerCookieTransformationMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.IdentityServer.ChangeResponseStatusCodeMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthenticationExtensions.<>c.<<EnsureCurrentPathIsFrontend>b__10_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SecurityTokenServiceMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: YATHI
+
+App Domain: /LM/W3SVC/2/ROOT-1-132145175289009800
+
+ProcessId: 21760
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5408
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c19d6b97-f306-4783-b770-a50508af1694
+
+Timestamp: 10/2/2019 7:25:39 PM
+
+Message: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Web.Http.Owin.HttpMessageHandlerAdapter.<SendResponseContentAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Web.Http.Owin.HttpMessageHandlerAdapter.<InvokeCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.SignOutMessageCookieExtension.<>c.<<ConfigureSignOutMessageCookie>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.UseCookieAuthenticationExtension.<>c__DisplayClass0_0.<<ConfigureCookieAuthentication>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Security.Infrastructure.AuthenticationMiddleware`1.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Cors.CorsMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.OwinExtensions.<>c__DisplayClass0_0.<<UseAutofacMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureRenderLoggedOutPageExtension.<>c.<<ConfigureRenderLoggedOutPage>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureRequestBodyBufferExtension.<>c.<<ConfigureRequestBodyBuffer>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureIdentityServerIssuerExtension.<>c__DisplayClass0_1.<<ConfigureIdentityServerIssuer>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureIdentityServerBaseUrlExtension.<>c__DisplayClass0_0.<<ConfigureIdentityServerBaseUrl>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Owin.ConfigureRequestIdExtension.<>c.<<ConfigureRequestId>b__0_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.IdentityServer.IdentityServerCookieTransformationMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.IdentityServer.ChangeResponseStatusCodeMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthenticationExtensions.<>c.<<EnsureCurrentPathIsFrontend>b__10_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Owin.Mapping.MapMiddleware.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SecurityTokenServiceMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Authentication.Owin.SitefinityAuthenticationMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.Extensions.SslOffloaderMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.HttpsRedirectMiddleware.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telerik.Sitefinity.Owin.Extensions.GlobalExceptionMiddleware.<Invoke>d__1.MoveNext()
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: YATHI
+
+App Domain: /LM/W3SVC/2/ROOT-1-132145175289009800
+
+ProcessId: 21760
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11812
+
+Extended Properties: 
+----------------------------------------

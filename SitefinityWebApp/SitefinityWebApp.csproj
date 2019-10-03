@@ -947,6 +947,7 @@
     <Content Include="App_Data\RadCaptcha\X.wav" />
     <Content Include="App_Data\RadCaptcha\Y.wav" />
     <Content Include="App_Data\RadCaptcha\Z.wav" />
+    <Content Include="App_Data\Sitefinity\TrackingConsent\consentDialog.html" />
     <Content Include="Default.aspx" />
     <Content Include="extensions.bundle.js" />
     <Content Include="Mvc\Controllers\readme.txt" />
@@ -1094,6 +1095,11 @@
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
+    <Content Include="App_Data\Sitefinity\Configuration\DataConfig.config" />
+    <Content Include="App_Data\Sitefinity\Logs\d9471817-5c2f-410e-8aea-7340d48e6fe0Trace.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Trace.log" />
+    <Content Include="App_Data\Sitefinity\Logs\UpgradeTrace.log" />
+    <Content Include="App_Data\Sitefinity\Sitefinity.lic" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>

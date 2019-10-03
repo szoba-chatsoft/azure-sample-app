@@ -1,0 +1,31 @@
+----------------------------------------
+ActivityId: 26fe39c7-d3b1-4a94-94cc-33a364577900
+
+Timestamp: 10/2/2019 6:59:17 PM
+
+Message: Identity Server: NoSignInCookie
+
+Category: Authentication
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: YATHI
+
+App Domain: /LM/W3SVC/2/ROOT-2-132145159011298237
+
+ProcessId: 17300
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:24300
+
+Extended Properties: 
+----------------------------------------
