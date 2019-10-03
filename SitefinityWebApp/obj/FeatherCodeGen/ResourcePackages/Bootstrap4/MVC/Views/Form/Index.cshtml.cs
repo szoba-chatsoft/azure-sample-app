@@ -66,18 +66,18 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.Form
         }
         public override void Execute()
         {
-WriteLiteral("\n<div");
+WriteLiteral("\r\n<div");
 
 WriteLiteral(" data-sf-role=\"form-container\"");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 332), Tuple.Create("\"", 355)
+WriteAttribute("class", Tuple.Create(" class=\"", 340), Tuple.Create("\"", 363)
             
             #line 9 "..\..MVC\Views\Form\Index.cshtml"
-, Tuple.Create(Tuple.Create("", 340), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 348), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 340), false)
+, 348), false)
 );
 
 WriteLiteral(">\r\n    <input");
@@ -86,14 +86,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"form-id\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 406), Tuple.Create("\"", 427)
+WriteAttribute("value", Tuple.Create(" value=\"", 414), Tuple.Create("\"", 435)
             
             #line 10 "..\..MVC\Views\Form\Index.cshtml"
-, Tuple.Create(Tuple.Create("", 414), Tuple.Create<System.Object, System.Int32>(Model.FormId
+, Tuple.Create(Tuple.Create("", 422), Tuple.Create<System.Object, System.Int32>(Model.FormId
             
             #line default
             #line hidden
-, 414), false)
+, 422), false)
 );
 
 WriteLiteral(" name=\"FormId\"");
@@ -173,14 +173,14 @@ WriteLiteral("            <img");
 
 WriteLiteral(" data-sf-role=\"loading-img\"");
 
-WriteAttribute("src", Tuple.Create(" src=\'", 917), Tuple.Create("\'", 1065)
+WriteAttribute("src", Tuple.Create(" src=\'", 925), Tuple.Create("\'", 1073)
             
             #line 22 "..\..MVC\Views\Form\Index.cshtml"
-, Tuple.Create(Tuple.Create("", 923), Tuple.Create<System.Object, System.Int32>(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Themes.Light.Images.Loadings.sfLoadingData.gif")
+, Tuple.Create(Tuple.Create("", 931), Tuple.Create<System.Object, System.Int32>(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Themes.Light.Images.Loadings.sfLoadingData.gif")
             
             #line default
             #line hidden
-, 923), false)
+, 931), false)
 );
 
 WriteLiteral(" alt=\"Loading animation\"");
@@ -226,14 +226,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"ajax-submit-url\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1668), Tuple.Create("\"", 1696)
+WriteAttribute("value", Tuple.Create(" value=\"", 1676), Tuple.Create("\"", 1704)
             
             #line 37 "..\..MVC\Views\Form\Index.cshtml"
-, Tuple.Create(Tuple.Create("", 1676), Tuple.Create<System.Object, System.Int32>(Model.AjaxSubmitUrl
+, Tuple.Create(Tuple.Create("", 1684), Tuple.Create<System.Object, System.Int32>(Model.AjaxSubmitUrl
             
             #line default
             #line hidden
-, 1676), false)
+, 1684), false)
 );
 
 WriteLiteral(" />\r\n");
@@ -244,14 +244,14 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"redirect-url\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1762), Tuple.Create("\"", 1788)
+WriteAttribute("value", Tuple.Create(" value=\"", 1770), Tuple.Create("\"", 1796)
             
             #line 38 "..\..MVC\Views\Form\Index.cshtml"
-, Tuple.Create(Tuple.Create("", 1770), Tuple.Create<System.Object, System.Int32>(Model.RedirectUrl
+, Tuple.Create(Tuple.Create("", 1778), Tuple.Create<System.Object, System.Int32>(Model.RedirectUrl
             
             #line default
             #line hidden
-, 1770), false)
+, 1778), false)
 );
 
 WriteLiteral(" />\r\n");
@@ -291,7 +291,7 @@ WriteLiteral(" />\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n</div>\n");
+WriteLiteral("\r\n</div>\r\n");
 
         }
     }

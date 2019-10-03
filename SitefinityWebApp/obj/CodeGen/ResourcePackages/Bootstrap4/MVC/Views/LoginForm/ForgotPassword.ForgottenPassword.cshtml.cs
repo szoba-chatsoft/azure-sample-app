@@ -55,19 +55,19 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.LoginForm
         }
         public override void Execute()
         {
-WriteLiteral("\n<div");
+WriteLiteral("\r\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 212), Tuple.Create("\"", 235)
+WriteAttribute("class", Tuple.Create(" class=\"", 218), Tuple.Create("\"", 241)
             
             #line 7 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
-, Tuple.Create(Tuple.Create("", 220), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 226), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 220), false)
+, 226), false)
 );
 
-WriteLiteral(">\n\n    <h3>");
+WriteLiteral(">\r\n\r\n    <h3>");
 
             
             #line 9 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
@@ -76,7 +76,7 @@ WriteLiteral(">\n\n    <h3>");
             
             #line default
             #line hidden
-WriteLiteral("</h3>\n\n");
+WriteLiteral("</h3>\r\n\r\n");
 
             
             #line 11 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
@@ -94,14 +94,14 @@ WriteLiteral("</h3>\n\n");
             #line hidden
 WriteLiteral("        <p");
 
-WriteAttribute("id", Tuple.Create(" id=\'", 334), Tuple.Create("\'", 386)
+WriteAttribute("id", Tuple.Create(" id=\'", 346), Tuple.Create("\'", 398)
             
             #line 13 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
-, Tuple.Create(Tuple.Create("", 339), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ForgotPasswordRequestSentInfo")
+, Tuple.Create(Tuple.Create("", 351), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ForgotPasswordRequestSentInfo")
             
             #line default
             #line hidden
-, 339), false)
+, 351), false)
 );
 
 WriteLiteral(">");
@@ -122,7 +122,7 @@ WriteLiteral(" <i>");
             
             #line default
             #line hidden
-WriteLiteral("</i></p>\n");
+WriteLiteral("</i></p>\r\n");
 
             
             #line 14 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
@@ -133,14 +133,14 @@ WriteLiteral("</i></p>\n");
             #line hidden
 WriteLiteral("        <p");
 
-WriteAttribute("id", Tuple.Create(" id=\'", 480), Tuple.Create("\'", 539)
+WriteAttribute("id", Tuple.Create(" id=\'", 494), Tuple.Create("\'", 553)
             
             #line 15 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
-, Tuple.Create(Tuple.Create("", 485), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ForgotPasswordRequestSentUseLinkInfo")
+, Tuple.Create(Tuple.Create("", 499), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ForgotPasswordRequestSentUseLinkInfo")
             
             #line default
             #line hidden
-, 485), false)
+, 499), false)
 );
 
 WriteLiteral(">");
@@ -152,7 +152,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</p>\n");
+WriteLiteral("</p>\r\n");
 
             
             #line 16 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
@@ -164,26 +164,26 @@ WriteLiteral("</p>\n");
             #line hidden
 WriteLiteral("        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 760), Tuple.Create("\"", 786)
+WriteAttribute("href", Tuple.Create(" href=\"", 777), Tuple.Create("\"", 803)
             
             #line 18 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
-, Tuple.Create(Tuple.Create("", 767), Tuple.Create<System.Object, System.Int32>(Model.LoginPageUrl
+, Tuple.Create(Tuple.Create("", 784), Tuple.Create<System.Object, System.Int32>(Model.LoginPageUrl
             
             #line default
             #line hidden
-, 767), false)
+, 784), false)
 );
 
 WriteLiteral(" class=\"btn btn-secondary\"");
 
-WriteAttribute("aria-describedby", Tuple.Create(" aria-describedby=\"", 813), Tuple.Create("\"", 861)
+WriteAttribute("aria-describedby", Tuple.Create(" aria-describedby=\"", 830), Tuple.Create("\"", 878)
             
             #line 18 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
-   , Tuple.Create(Tuple.Create("", 832), Tuple.Create<System.Object, System.Int32>(forgottenPasswordDescription
+   , Tuple.Create(Tuple.Create("", 849), Tuple.Create<System.Object, System.Int32>(forgottenPasswordDescription
             
             #line default
             #line hidden
-, 832), false)
+, 849), false)
 );
 
 WriteLiteral(">");
@@ -195,7 +195,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\n");
+WriteLiteral("</a>\r\n");
 
             
             #line 19 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
@@ -210,14 +210,14 @@ WriteLiteral("</a>\n");
             #line hidden
 WriteLiteral("            <p");
 
-WriteAttribute("id", Tuple.Create(" id=\'", 1026), Tuple.Create("\'", 1075)
+WriteAttribute("id", Tuple.Create(" id=\'", 1049), Tuple.Create("\'", 1098)
             
             #line 24 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
-, Tuple.Create(Tuple.Create("", 1031), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("EnterLoginEmailAddressInfo")
+, Tuple.Create(Tuple.Create("", 1054), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("EnterLoginEmailAddressInfo")
             
             #line default
             #line hidden
-, 1031), false)
+, 1054), false)
 );
 
 WriteLiteral(">");
@@ -229,7 +229,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</p>\n");
+WriteLiteral("</p>\r\n");
 
             
             #line 25 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
@@ -242,7 +242,7 @@ WriteLiteral("            <div");
 
 WriteLiteral(" class=\"form-group\"");
 
-WriteLiteral(">\n");
+WriteLiteral(">\r\n");
 
 WriteLiteral("                ");
 
@@ -253,7 +253,7 @@ WriteLiteral("                ");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
 WriteLiteral("                ");
 
@@ -264,7 +264,7 @@ WriteLiteral("                ");
             
             #line default
             #line hidden
-WriteLiteral("\n            </div>\n");
+WriteLiteral("\r\n            </div>\r\n");
 
             
             #line 30 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
@@ -297,7 +297,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</button>\n");
+WriteLiteral("</button>\r\n");
 
             
             #line 32 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginForm\ForgotPassword.ForgottenPassword.cshtml"
@@ -307,7 +307,7 @@ WriteLiteral("</button>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n</div>\n");
+WriteLiteral("\r\n</div>\r\n");
 
         }
     }

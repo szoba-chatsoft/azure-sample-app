@@ -49,21 +49,21 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.DocumentsList
         }
         public override void Execute()
         {
-WriteLiteral("\n<div");
+WriteLiteral("\r\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 190), Tuple.Create("\"", 213)
+WriteAttribute("class", Tuple.Create(" class=\"", 195), Tuple.Create("\"", 218)
             
             #line 6 "..\..\ResourcePackages\Bootstrap4\MVC\Views\DocumentsList\Detail.DocumentDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 198), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 203), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 198), false)
+, 203), false)
 );
 
 WriteLiteral(" role=\"group\"");
 
-WriteLiteral(">\n\n    <h1>\n");
+WriteLiteral(">\r\n\r\n    <h1>\r\n");
 
 WriteLiteral("        ");
 
@@ -74,11 +74,11 @@ WriteLiteral("        ");
             
             #line default
             #line hidden
-WriteLiteral("\n    </h1>\n\n    <div");
+WriteLiteral("\r\n    </h1>\r\n\r\n    <div");
 
 WriteLiteral(" class=\"text-muted\"");
 
-WriteLiteral(">\n        <span");
+WriteLiteral(">\r\n        <span");
 
 WriteLiteral(" class=\"sr-only\"");
 
@@ -91,7 +91,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral(" </span>\n");
+WriteLiteral(" </span>\r\n");
 
 WriteLiteral("        ");
 
@@ -102,7 +102,7 @@ WriteLiteral("        ");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
 WriteLiteral("        ");
 
@@ -113,7 +113,7 @@ WriteLiteral("        ");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
 WriteLiteral("        ");
 
@@ -124,19 +124,19 @@ WriteLiteral("        ");
             
             #line default
             #line hidden
-WriteLiteral("\n    </div>\n\n    <div");
+WriteLiteral("\r\n    </div>\r\n\r\n    <div");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 573), Tuple.Create("\"", 619)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 591), Tuple.Create("\"", 637)
             
             #line 19 "..\..\ResourcePackages\Bootstrap4\MVC\Views\DocumentsList\Detail.DocumentDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 586), Tuple.Create<System.Object, System.Int32>(Html.Resource("DocumentSummary")
+, Tuple.Create(Tuple.Create("", 604), Tuple.Create<System.Object, System.Int32>(Html.Resource("DocumentSummary")
             
             #line default
             #line hidden
-, 586), false)
+, 604), false)
 );
 
-WriteLiteral(">\n");
+WriteLiteral(">\r\n");
 
 WriteLiteral("        ");
 
@@ -147,16 +147,16 @@ WriteLiteral("        ");
             
             #line default
             #line hidden
-WriteLiteral("\n    </div>\n\n    <div>\n        <a");
+WriteLiteral("\r\n    </div>\r\n\r\n    <div>\r\n        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 693), Tuple.Create("\"", 727)
+WriteAttribute("href", Tuple.Create(" href=\"", 716), Tuple.Create("\"", 750)
             
             #line 24 "..\..\ResourcePackages\Bootstrap4\MVC\Views\DocumentsList\Detail.DocumentDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 700), Tuple.Create<System.Object, System.Int32>(Model.Item.Fields.MediaUrl
+, Tuple.Create(Tuple.Create("", 723), Tuple.Create<System.Object, System.Int32>(Model.Item.Fields.MediaUrl
             
             #line default
             #line hidden
-, 700), false)
+, 723), false)
 );
 
 WriteLiteral(" target=\"_blank\"");
@@ -183,16 +183,16 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</span></a>\n        <span");
+WriteLiteral("</span></a>\r\n        <span");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 842), Tuple.Create("\"", 890)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 866), Tuple.Create("\"", 914)
             
             #line 25 "..\..\ResourcePackages\Bootstrap4\MVC\Views\DocumentsList\Detail.DocumentDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 855), Tuple.Create<System.Object, System.Int32>(Html.Resource("DocumentExtension")
+, Tuple.Create(Tuple.Create("", 879), Tuple.Create<System.Object, System.Int32>(Html.Resource("DocumentExtension")
             
             #line default
             #line hidden
-, 855), false)
+, 879), false)
 );
 
 WriteLiteral(">(");
@@ -204,16 +204,16 @@ WriteLiteral(">(");
             
             #line default
             #line hidden
-WriteLiteral(")</span>\n        <span");
+WriteLiteral(")</span>\r\n        <span");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 931), Tuple.Create("\"", 974)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 956), Tuple.Create("\"", 999)
             
             #line 26 "..\..\ResourcePackages\Bootstrap4\MVC\Views\DocumentsList\Detail.DocumentDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 944), Tuple.Create<System.Object, System.Int32>(Html.Resource("DocumentSize")
+, Tuple.Create(Tuple.Create("", 969), Tuple.Create<System.Object, System.Int32>(Html.Resource("DocumentSize")
             
             #line default
             #line hidden
-, 944), false)
+, 969), false)
 );
 
 WriteLiteral(">");
@@ -225,7 +225,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</span>\n    </div>    \n</div>");
+WriteLiteral("</span>\r\n    </div>    \r\n</div>");
 
         }
     }

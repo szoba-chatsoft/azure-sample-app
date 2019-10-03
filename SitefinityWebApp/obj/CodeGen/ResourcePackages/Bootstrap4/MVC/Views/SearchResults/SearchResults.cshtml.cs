@@ -72,27 +72,27 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.SearchResults
         }
         public override void Execute()
         {
-WriteLiteral("\n<div");
+WriteLiteral("\r\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 341), Tuple.Create("\"", 365)
+WriteAttribute("class", Tuple.Create(" class=\"", 350), Tuple.Create("\"", 374)
             
             #line 10 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create(" ", 349), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create(" ", 358), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 350), false)
+, 359), false)
 );
 
-WriteLiteral(">\n\n    <div");
+WriteLiteral(">\r\n\r\n    <div");
 
 WriteLiteral(" class=\"row\"");
 
-WriteLiteral(">\n        <div");
+WriteLiteral(">\r\n        <div");
 
 WriteLiteral(" class=\"col-lg-8\"");
 
-WriteLiteral(">\n");
+WriteLiteral(">\r\n");
 
             
             #line 14 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -125,7 +125,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</h1>\n");
+WriteLiteral("</h1>\r\n");
 
             
             #line 19 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -160,7 +160,7 @@ WriteLiteral(" ");
             
             #line default
             #line hidden
-WriteLiteral("</h1>\n");
+WriteLiteral("</h1>\r\n");
 
             
             #line 23 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -196,7 +196,7 @@ WriteLiteral(" ");
             
             #line default
             #line hidden
-WriteLiteral("</h1>\n");
+WriteLiteral("</h1>\r\n");
 
             
             #line 28 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -205,11 +205,11 @@ WriteLiteral("</h1>\n");
             
             #line default
             #line hidden
-WriteLiteral("        </div>\n        <div");
+WriteLiteral("        </div>\r\n        <div");
 
 WriteLiteral(" class=\"col-lg-4\"");
 
-WriteLiteral(">\n");
+WriteLiteral(">\r\n");
 
             
             #line 31 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -234,30 +234,30 @@ WriteLiteral("                <label>");
             
             #line default
             #line hidden
-WriteLiteral("\n                    <select");
+WriteLiteral("\r\n                    <select");
 
 WriteLiteral(" class=\"userSortDropdown\"");
 
-WriteAttribute("title", Tuple.Create(" title=\"", 1323), Tuple.Create("\"", 1361)
+WriteAttribute("title", Tuple.Create(" title=\"", 1356), Tuple.Create("\"", 1394)
             
             #line 34 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 1331), Tuple.Create<System.Object, System.Int32>(Html.Resource("SortDropdown")
+, Tuple.Create(Tuple.Create("", 1364), Tuple.Create<System.Object, System.Int32>(Html.Resource("SortDropdown")
             
             #line default
             #line hidden
-, 1331), false)
+, 1364), false)
 );
 
-WriteLiteral(">\n                        <option");
+WriteLiteral(">\r\n                        <option");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1395), Tuple.Create("\"", 1428)
+WriteAttribute("value", Tuple.Create(" value=\"", 1429), Tuple.Create("\"", 1462)
             
             #line 35 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 1403), Tuple.Create<System.Object, System.Int32>(OrderByOptions.Relevance
+, Tuple.Create(Tuple.Create("", 1437), Tuple.Create<System.Object, System.Int32>(OrderByOptions.Relevance
             
             #line default
             #line hidden
-, 1403), false)
+, 1437), false)
 );
 
 WriteLiteral(" ");
@@ -278,16 +278,16 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</option>\n                        <option");
+WriteLiteral("</option>\r\n                        <option");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1570), Tuple.Create("\"", 1600)
+WriteAttribute("value", Tuple.Create(" value=\"", 1605), Tuple.Create("\"", 1635)
             
             #line 36 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 1578), Tuple.Create<System.Object, System.Int32>(OrderByOptions.Newest
+, Tuple.Create(Tuple.Create("", 1613), Tuple.Create<System.Object, System.Int32>(OrderByOptions.Newest
             
             #line default
             #line hidden
-, 1578), false)
+, 1613), false)
 );
 
 WriteLiteral(" ");
@@ -308,16 +308,16 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</option>\n                        <option");
+WriteLiteral("</option>\r\n                        <option");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1741), Tuple.Create("\"", 1771)
+WriteAttribute("value", Tuple.Create(" value=\"", 1777), Tuple.Create("\"", 1807)
             
             #line 37 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 1749), Tuple.Create<System.Object, System.Int32>(OrderByOptions.Oldest
+, Tuple.Create(Tuple.Create("", 1785), Tuple.Create<System.Object, System.Int32>(OrderByOptions.Oldest
             
             #line default
             #line hidden
-, 1749), false)
+, 1785), false)
 );
 
 WriteLiteral(" ");
@@ -338,7 +338,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</option>\n                    </select>\n                </label>\n");
+WriteLiteral("</option>\r\n                    </select>\r\n                </label>\r\n");
 
             
             #line 40 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -347,7 +347,7 @@ WriteLiteral("</option>\n                    </select>\n                </label>
             
             #line default
             #line hidden
-WriteLiteral("        </div>\n    </div>\n\n");
+WriteLiteral("        </div>\r\n    </div>\r\n\r\n");
 
             
             #line 44 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -363,7 +363,7 @@ WriteLiteral("        </div>\n    </div>\n\n");
             
             #line default
             #line hidden
-WriteLiteral("        <div>\n            <span>");
+WriteLiteral("        <div>\r\n            <span>");
 
             
             #line 47 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -372,7 +372,7 @@ WriteLiteral("        <div>\n            <span>");
             
             #line default
             #line hidden
-WriteLiteral(" </span>\n");
+WriteLiteral(" </span>\r\n");
 
             
             #line 48 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -390,14 +390,14 @@ WriteLiteral(" </span>\n");
             #line hidden
 WriteLiteral("                <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2199), Tuple.Create("\"", 2282)
+WriteAttribute("href", Tuple.Create(" href=\"", 2248), Tuple.Create("\"", 2331)
             
             #line 50 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 2206), Tuple.Create<System.Object, System.Int32>(String.Format(ViewBag.LanguageSearchUrlTemplate, Model.Languages[i].Name)
+, Tuple.Create(Tuple.Create("", 2255), Tuple.Create<System.Object, System.Int32>(String.Format(ViewBag.LanguageSearchUrlTemplate, Model.Languages[i].Name)
             
             #line default
             #line hidden
-, 2206), false)
+, 2255), false)
 );
 
 WriteLiteral(">");
@@ -409,7 +409,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\n");
+WriteLiteral("</a>\r\n");
 
             
             #line 51 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -419,7 +419,7 @@ WriteLiteral("</a>\n");
             
             #line default
             #line hidden
-WriteLiteral("                    <span>, </span>\n");
+WriteLiteral("                    <span>, </span>\r\n");
 
             
             #line 54 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -439,7 +439,7 @@ WriteLiteral("                    <span> ");
             
             #line default
             #line hidden
-WriteLiteral(" </span>\n");
+WriteLiteral(" </span>\r\n");
 
             
             #line 58 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -449,7 +449,7 @@ WriteLiteral(" </span>\n");
             
             #line default
             #line hidden
-WriteLiteral("        </div>\n");
+WriteLiteral("        </div>\r\n");
 
             
             #line 61 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -458,11 +458,11 @@ WriteLiteral("        </div>\n");
             
             #line default
             #line hidden
-WriteLiteral("             \n    <div");
+WriteLiteral("             \r\n    <div");
 
 WriteLiteral(" class=\"sf-search-results media-list\"");
 
-WriteLiteral(">\n");
+WriteLiteral(">\r\n");
 
             
             #line 64 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -483,7 +483,7 @@ WriteLiteral("            <div");
 
 WriteLiteral(" class=\"media sf-media\"");
 
-WriteLiteral(">\n\n");
+WriteLiteral(">\r\n\r\n");
 
             
             #line 69 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -504,43 +504,43 @@ WriteLiteral("            <div");
 
 WriteLiteral(" class=\"media-left pr-2 sf-img-thmb\"");
 
-WriteLiteral(">\n                <a");
+WriteLiteral(">\r\n                <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 3166), Tuple.Create("\"", 3195)
+WriteAttribute("href", Tuple.Create(" href=\"", 3238), Tuple.Create("\"", 3267)
             
             #line 73 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 3173), Tuple.Create<System.Object, System.Int32>(item.GetValue("Link")
+, Tuple.Create(Tuple.Create("", 3245), Tuple.Create<System.Object, System.Int32>(item.GetValue("Link")
             
             #line default
             #line hidden
-, 3173), false)
+, 3245), false)
 );
 
-WriteLiteral(">\n                    <img");
+WriteLiteral(">\r\n                    <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 3222), Tuple.Create("\"", 3250)
+WriteAttribute("src", Tuple.Create(" src=\"", 3295), Tuple.Create("\"", 3323)
             
             #line 74 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 3228), Tuple.Create<System.Object, System.Int32>(item.GetValue("Link")
+, Tuple.Create(Tuple.Create("", 3301), Tuple.Create<System.Object, System.Int32>(item.GetValue("Link")
             
             #line default
             #line hidden
-, 3228), false)
+, 3301), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 3251), Tuple.Create("\"", 3280)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 3324), Tuple.Create("\"", 3353)
             
             #line 74 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 3257), Tuple.Create<System.Object, System.Int32>(item.GetValue("Title")
+, Tuple.Create(Tuple.Create("", 3330), Tuple.Create<System.Object, System.Int32>(item.GetValue("Title")
             
             #line default
             #line hidden
-, 3257), false)
+, 3330), false)
 );
 
 WriteLiteral(" width=\"120\"");
 
-WriteLiteral("/>\n                </a>\n            </div>\n");
+WriteLiteral("/>\r\n                </a>\r\n            </div>\r\n");
 
             
             #line 77 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -563,52 +563,52 @@ WriteLiteral("                <div");
 
 WriteLiteral(" class=\"media-left pr-2\"");
 
-WriteLiteral(">\n                    <div");
+WriteLiteral(">\r\n                    <div");
 
 WriteLiteral(" class=\"sf-video-thmb\"");
 
-WriteLiteral(">\n\n                        <a");
+WriteLiteral(">\r\n\r\n                        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 3998), Tuple.Create("\"", 4027)
+WriteAttribute("href", Tuple.Create(" href=\"", 4088), Tuple.Create("\"", 4117)
             
             #line 91 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 4005), Tuple.Create<System.Object, System.Int32>(item.GetValue("Link")
+, Tuple.Create(Tuple.Create("", 4095), Tuple.Create<System.Object, System.Int32>(item.GetValue("Link")
             
             #line default
             #line hidden
-, 4005), false)
+, 4095), false)
 );
 
-WriteLiteral(">\n                            <img");
+WriteLiteral(">\r\n                            <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 4062), Tuple.Create("\"", 4077)
+WriteAttribute("src", Tuple.Create(" src=\"", 4153), Tuple.Create("\"", 4168)
             
             #line 92 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 4068), Tuple.Create<System.Object, System.Int32>(thumbUrl
+, Tuple.Create(Tuple.Create("", 4159), Tuple.Create<System.Object, System.Int32>(thumbUrl
             
             #line default
             #line hidden
-, 4068), false)
+, 4159), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 4078), Tuple.Create("\"", 4107)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 4169), Tuple.Create("\"", 4198)
             
             #line 92 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 4084), Tuple.Create<System.Object, System.Int32>(item.GetValue("Title")
+, Tuple.Create(Tuple.Create("", 4175), Tuple.Create<System.Object, System.Int32>(item.GetValue("Title")
             
             #line default
             #line hidden
-, 4084), false)
+, 4175), false)
 );
 
 WriteLiteral(" width=\"120\"");
 
-WriteLiteral("/>\n                        \n                            <div");
+WriteLiteral("/>\r\n                        \r\n                            <div");
 
 WriteLiteral(" class=\"sf-icon-play\"");
 
-WriteLiteral("></div>\n                        \n                        </a>\n                   " +
-" </div>\n                </div>\n");
+WriteLiteral("></div>\r\n                        \r\n                        </a>\r\n                " +
+"    </div>\r\n                </div>\r\n");
 
             
             #line 99 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -624,11 +624,11 @@ WriteLiteral("></div>\n                        \n                        </a>\n 
             
             #line default
             #line hidden
-WriteLiteral("            \n            \n            <div");
+WriteLiteral("            \r\n            \r\n            <div");
 
 WriteLiteral(" class=\"media-body sf-media-body\"");
 
-WriteLiteral(">\n\n                <h3>\n");
+WriteLiteral(">\r\n\r\n                <h3>\r\n");
 
             
             #line 112 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -646,14 +646,14 @@ WriteLiteral(">\n\n                <h3>\n");
             #line hidden
 WriteLiteral("                        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 4574), Tuple.Create("\"", 4603)
+WriteAttribute("href", Tuple.Create(" href=\"", 4687), Tuple.Create("\"", 4716)
             
             #line 114 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 4581), Tuple.Create<System.Object, System.Int32>(item.GetValue("Link")
+, Tuple.Create(Tuple.Create("", 4694), Tuple.Create<System.Object, System.Int32>(item.GetValue("Link")
             
             #line default
             #line hidden
-, 4581), false)
+, 4694), false)
 );
 
 WriteLiteral(">");
@@ -665,7 +665,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\n");
+WriteLiteral("</a>\r\n");
 
             
             #line 115 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -691,7 +691,7 @@ WriteLiteral("</a>\n");
             
             #line default
             #line hidden
-WriteLiteral("                </h3>\n\n                <p>");
+WriteLiteral("                </h3>\r\n\r\n                <p>");
 
             
             #line 122 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -700,7 +700,7 @@ WriteLiteral("                </h3>\n\n                <p>");
             
             #line default
             #line hidden
-WriteLiteral("</p>\n");
+WriteLiteral("</p>\r\n");
 
             
             #line 123 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -718,14 +718,14 @@ WriteLiteral("</p>\n");
             #line hidden
 WriteLiteral("                    <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 4951), Tuple.Create("\"", 4980)
+WriteAttribute("href", Tuple.Create(" href=\"", 5075), Tuple.Create("\"", 5104)
             
             #line 125 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 4958), Tuple.Create<System.Object, System.Int32>(item.GetValue("Link")
+, Tuple.Create(Tuple.Create("", 5082), Tuple.Create<System.Object, System.Int32>(item.GetValue("Link")
             
             #line default
             #line hidden
-, 4958), false)
+, 5082), false)
 );
 
 WriteLiteral(">");
@@ -737,7 +737,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\n");
+WriteLiteral("</a>\r\n");
 
             
             #line 126 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -746,7 +746,7 @@ WriteLiteral("</a>\n");
             
             #line default
             #line hidden
-WriteLiteral("            </div>\n            </div>\n");
+WriteLiteral("            </div>\r\n            </div>\r\n");
 
             
             #line 129 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -755,7 +755,7 @@ WriteLiteral("            </div>\n            </div>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n    </div>\n\n");
+WriteLiteral("\r\n    </div>\r\n\r\n");
 
             
             #line 133 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -777,7 +777,7 @@ WriteLiteral("             <ul");
 
 WriteLiteral(" class=\"pagination\"");
 
-WriteLiteral(">\n");
+WriteLiteral(">\r\n");
 
             
             #line 138 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -797,18 +797,18 @@ WriteLiteral("                    <li");
 
 WriteLiteral(" class=\"page-item\"");
 
-WriteLiteral(">\n\t\t\t\t\t    <a");
+WriteLiteral(">\r\n\t\t\t\t\t    <a");
 
 WriteLiteral(" class=\"page-link\"");
 
-WriteAttribute("href", Tuple.Create(" href=\'", 5423), Tuple.Create("\'", 5500)
+WriteAttribute("href", Tuple.Create(" href=\'", 5563), Tuple.Create("\'", 5640)
             
             #line 141 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 5430), Tuple.Create<System.Object, System.Int32>(string.Format(ViewBag.RedirectPageUrlTemplate, Model.CurrentPage - 1)
+, Tuple.Create(Tuple.Create("", 5570), Tuple.Create<System.Object, System.Int32>(string.Format(ViewBag.RedirectPageUrlTemplate, Model.CurrentPage - 1)
             
             #line default
             #line hidden
-, 5430), false)
+, 5570), false)
 );
 
 WriteLiteral(">");
@@ -820,7 +820,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\n                    </li>\n");
+WriteLiteral("</a>\r\n                    </li>\r\n");
 
             
             #line 143 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -843,18 +843,18 @@ WriteLiteral("                    <li");
 
 WriteLiteral(" class=\"page-item\"");
 
-WriteLiteral(">\n                        <a");
+WriteLiteral(">\r\n                        <a");
 
 WriteLiteral(" class=\"page-link\"");
 
-WriteAttribute("href", Tuple.Create(" href=\'", 5719), Tuple.Create("\'", 5796)
+WriteAttribute("href", Tuple.Create(" href=\'", 5865), Tuple.Create("\'", 5942)
             
             #line 147 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 5726), Tuple.Create<System.Object, System.Int32>(string.Format(ViewBag.RedirectPageUrlTemplate, Model.CurrentPage + 1)
+, Tuple.Create(Tuple.Create("", 5872), Tuple.Create<System.Object, System.Int32>(string.Format(ViewBag.RedirectPageUrlTemplate, Model.CurrentPage + 1)
             
             #line default
             #line hidden
-, 5726), false)
+, 5872), false)
 );
 
 WriteLiteral(">");
@@ -866,7 +866,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\n                    </li>\n");
+WriteLiteral("</a>\r\n                    </li>\r\n");
 
             
             #line 149 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -875,7 +875,7 @@ WriteLiteral("</a>\n                    </li>\n");
             
             #line default
             #line hidden
-WriteLiteral("            </ul>\n");
+WriteLiteral("            </ul>\r\n");
 
             
             #line 151 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -910,7 +910,7 @@ WriteLiteral(" of ");
             
             #line default
             #line hidden
-WriteLiteral(" results</em>\n");
+WriteLiteral(" results</em>\r\n");
 
             
             #line 157 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -943,7 +943,7 @@ WriteLiteral(" of ");
             
             #line default
             #line hidden
-WriteLiteral(" results</em>\n");
+WriteLiteral(" results</em>\r\n");
 
             
             #line 161 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -953,7 +953,7 @@ WriteLiteral(" results</em>\n");
             
             #line default
             #line hidden
-WriteLiteral("            <div>\n");
+WriteLiteral("            <div>\r\n");
 
 WriteLiteral("                ");
 
@@ -969,7 +969,7 @@ WriteLiteral("                ");
             
             #line default
             #line hidden
-WriteLiteral("\n            </div>\n");
+WriteLiteral("\r\n            </div>\r\n");
 
             
             #line 171 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -979,87 +979,87 @@ WriteLiteral("\n            </div>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n    <input");
+WriteLiteral("\r\n    <input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"searchResOrderBy\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 6705), Tuple.Create("\'", 6747)
+WriteAttribute("value", Tuple.Create(" value=\'", 6878), Tuple.Create("\'", 6920)
             
             #line 174 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 6713), Tuple.Create<System.Object, System.Int32>(Request.QueryStringGet("orderBy")
+, Tuple.Create(Tuple.Create("", 6886), Tuple.Create<System.Object, System.Int32>(Request.QueryStringGet("orderBy")
             
             #line default
             #line hidden
-, 6713), false)
+, 6886), false)
 );
 
-WriteLiteral(" />\n    <input");
+WriteLiteral(" />\r\n    <input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"searchResLanguage\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 6809), Tuple.Create("\'", 6852)
+WriteAttribute("value", Tuple.Create(" value=\'", 6983), Tuple.Create("\'", 7026)
             
             #line 175 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 6817), Tuple.Create<System.Object, System.Int32>(Request.QueryStringGet("language")
+, Tuple.Create(Tuple.Create("", 6991), Tuple.Create<System.Object, System.Int32>(Request.QueryStringGet("language")
             
             #line default
             #line hidden
-, 6817), false)
+, 6991), false)
 );
 
-WriteLiteral(" />\n    <input");
+WriteLiteral(" />\r\n    <input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"searchResIndexCatalogue\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 6920), Tuple.Create("\'", 6969)
+WriteAttribute("value", Tuple.Create(" value=\'", 7095), Tuple.Create("\'", 7144)
             
             #line 176 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 6928), Tuple.Create<System.Object, System.Int32>(Request.QueryStringGet("indexCatalogue")
+, Tuple.Create(Tuple.Create("", 7103), Tuple.Create<System.Object, System.Int32>(Request.QueryStringGet("indexCatalogue")
             
             #line default
             #line hidden
-, 6928), false)
+, 7103), false)
 );
 
-WriteLiteral(" />\n    <input");
+WriteLiteral(" />\r\n    <input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"searchResQuery\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 7028), Tuple.Create("\'", 7074)
+WriteAttribute("value", Tuple.Create(" value=\'", 7204), Tuple.Create("\'", 7250)
             
             #line 177 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 7036), Tuple.Create<System.Object, System.Int32>(Request.QueryStringGet("searchQuery")
+, Tuple.Create(Tuple.Create("", 7212), Tuple.Create<System.Object, System.Int32>(Request.QueryStringGet("searchQuery")
             
             #line default
             #line hidden
-, 7036), false)
+, 7212), false)
 );
 
-WriteLiteral(" />\n    <input");
+WriteLiteral(" />\r\n    <input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"searchResWordsMode\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 7137), Tuple.Create("\'", 7181)
+WriteAttribute("value", Tuple.Create(" value=\'", 7314), Tuple.Create("\'", 7358)
             
             #line 178 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
-, Tuple.Create(Tuple.Create("", 7145), Tuple.Create<System.Object, System.Int32>(Request.QueryStringGet("wordsMode")
+, Tuple.Create(Tuple.Create("", 7322), Tuple.Create<System.Object, System.Int32>(Request.QueryStringGet("wordsMode")
             
             #line default
             #line hidden
-, 7145), false)
+, 7322), false)
 );
 
-WriteLiteral(" />\n        \n</div>\n\n");
+WriteLiteral(" />\r\n        \r\n</div>\r\n\r\n");
 
             
             #line 182 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"
@@ -1068,7 +1068,7 @@ Write(Html.Script(ScriptRef.JQuery, "top", true));
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
             
             #line 183 "..\..\ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml"

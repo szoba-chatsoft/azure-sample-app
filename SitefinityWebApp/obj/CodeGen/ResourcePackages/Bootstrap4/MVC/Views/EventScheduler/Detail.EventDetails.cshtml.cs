@@ -55,16 +55,16 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.EventScheduler
         }
         public override void Execute()
         {
-WriteLiteral("\n<div");
+WriteLiteral("\r\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 224), Tuple.Create("\"", 247)
+WriteAttribute("class", Tuple.Create(" class=\"", 230), Tuple.Create("\"", 253)
             
             #line 7 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 232), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 238), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 232), false)
+, 238), false)
 );
 
 WriteLiteral(" ");
@@ -76,11 +76,11 @@ WriteLiteral(" ");
             
             #line default
             #line hidden
-WriteLiteral(">\n    <h3");
+WriteLiteral(">\r\n    <h3");
 
 WriteLiteral(" class=\"sf-event-title\"");
 
-WriteLiteral(">\n        <span ");
+WriteLiteral(">\r\n        <span ");
 
             
             #line 9 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -98,22 +98,22 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</span>\n    </h3>\n    <span");
+WriteLiteral("</span>\r\n    </h3>\r\n    <span");
 
 WriteLiteral(" class=\"sf-event-type\"");
 
-WriteAttribute("style", Tuple.Create(" style=\"", 532), Tuple.Create("\"", 585)
-, Tuple.Create(Tuple.Create("", 540), Tuple.Create("background:", 540), true)
+WriteAttribute("style", Tuple.Create(" style=\"", 542), Tuple.Create("\"", 595)
+, Tuple.Create(Tuple.Create("", 550), Tuple.Create("background:", 550), true)
             
             #line 11 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
-, Tuple.Create(Tuple.Create(" ", 551), Tuple.Create<System.Object, System.Int32>(Model.Item.EventCalendarColour()
+, Tuple.Create(Tuple.Create(" ", 561), Tuple.Create<System.Object, System.Int32>(Model.Item.EventCalendarColour()
             
             #line default
             #line hidden
-, 552), false)
+, 562), false)
 );
 
-WriteLiteral("></span>\n\n");
+WriteLiteral("></span>\r\n\r\n");
 
             
             #line 13 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -129,7 +129,7 @@ WriteLiteral("></span>\n\n");
             
             #line default
             #line hidden
-WriteLiteral("    <p>\n        <time>");
+WriteLiteral("    <p>\r\n        <time>");
 
             
             #line 16 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -138,7 +138,7 @@ WriteLiteral("    <p>\n        <time>");
             
             #line default
             #line hidden
-WriteLiteral("</time>\n    </p>\n");
+WriteLiteral("</time>\r\n    </p>\r\n");
 
             
             #line 18 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -147,7 +147,7 @@ WriteLiteral("</time>\n    </p>\n");
             
             #line default
             #line hidden
-WriteLiteral("    \n");
+WriteLiteral("    \r\n");
 
             
             #line 20 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -162,7 +162,7 @@ WriteLiteral("    \n");
             
             #line default
             #line hidden
-WriteLiteral("<address>\n\n");
+WriteLiteral("<address>\r\n\r\n");
 
             
             #line 23 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -207,7 +207,7 @@ WriteLiteral(" <span>,</span> ");
             
             #line default
             #line hidden
-WriteLiteral("            <br>\n");
+WriteLiteral("            <br>\r\n");
 
             
             #line 27 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -232,7 +232,7 @@ WriteLiteral("            <br>\n");
             
             #line default
             #line hidden
-WriteLiteral("             <br>\n");
+WriteLiteral("             <br>\r\n");
 
             
             #line 32 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -241,7 +241,7 @@ WriteLiteral("             <br>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
             
             #line 34 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -272,7 +272,7 @@ WriteLiteral("\n");
             
             #line default
             #line hidden
-WriteLiteral("    </address>\n");
+WriteLiteral("    </address>\r\n");
 
             
             #line 39 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -281,7 +281,7 @@ WriteLiteral("    </address>\n");
             
             #line default
             #line hidden
-WriteLiteral("    \n    <div>\n");
+WriteLiteral("    \r\n    <div>\r\n");
 
             
             #line 42 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -311,7 +311,7 @@ WriteLiteral("    \n    <div>\n");
             
             #line default
             #line hidden
-WriteLiteral("            <br>\n");
+WriteLiteral("            <br>\r\n");
 
             
             #line 46 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -320,7 +320,7 @@ WriteLiteral("            <br>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
             
             #line 48 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -350,7 +350,7 @@ WriteLiteral("\n");
             
             #line default
             #line hidden
-WriteLiteral("            <br>\n");
+WriteLiteral("            <br>\r\n");
 
             
             #line 52 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -359,7 +359,7 @@ WriteLiteral("            <br>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
             
             #line 54 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -389,7 +389,7 @@ WriteLiteral("\n");
             
             #line default
             #line hidden
-WriteLiteral("            <br>\n");
+WriteLiteral("            <br>\r\n");
 
             
             #line 58 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -398,7 +398,7 @@ WriteLiteral("            <br>\n");
             
             #line default
             #line hidden
-WriteLiteral("            \n");
+WriteLiteral("            \r\n");
 
             
             #line 60 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -416,15 +416,15 @@ WriteLiteral("            \n");
             #line hidden
 WriteLiteral("            <address><a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 1962), Tuple.Create("\"", 2009)
-, Tuple.Create(Tuple.Create("", 1969), Tuple.Create("mailto:", 1969), true)
+WriteAttribute("href", Tuple.Create(" href=\"", 2023), Tuple.Create("\"", 2070)
+, Tuple.Create(Tuple.Create("", 2030), Tuple.Create("mailto:", 2030), true)
             
             #line 62 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 1976), Tuple.Create<System.Object, System.Int32>(Model.Item.Fields.ContactEmail
+, Tuple.Create(Tuple.Create("", 2037), Tuple.Create<System.Object, System.Int32>(Model.Item.Fields.ContactEmail
             
             #line default
             #line hidden
-, 1976), false)
+, 2037), false)
 );
 
 WriteLiteral(" target=\"_blank\"");
@@ -438,7 +438,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a></address>\n");
+WriteLiteral("</a></address>\r\n");
 
             
             #line 63 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -447,7 +447,7 @@ WriteLiteral("</a></address>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
             
             #line 65 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -465,14 +465,14 @@ WriteLiteral("\n");
             #line hidden
 WriteLiteral("            <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2174), Tuple.Create("\"", 2238)
+WriteAttribute("href", Tuple.Create(" href=\"", 2240), Tuple.Create("\"", 2304)
             
             #line 67 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 2181), Tuple.Create<System.Object, System.Int32>(Html.UrlSanitize((string)Model.Item.Fields.ContactWeb)
+, Tuple.Create(Tuple.Create("", 2247), Tuple.Create<System.Object, System.Int32>(Html.UrlSanitize((string)Model.Item.Fields.ContactWeb)
             
             #line default
             #line hidden
-, 2181), false)
+, 2247), false)
 );
 
 WriteLiteral(" target=\"_blank\"");
@@ -486,7 +486,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\n");
+WriteLiteral("</a>\r\n");
 
             
             #line 68 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -495,7 +495,7 @@ WriteLiteral("</a>\n");
             
             #line default
             #line hidden
-WriteLiteral("    </div>\n\n");
+WriteLiteral("    </div>\r\n\r\n");
 
             
             #line 71 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -511,9 +511,9 @@ WriteLiteral("    </div>\n\n");
             
             #line default
             #line hidden
-WriteLiteral("        <p>\n\t\t\t");
+WriteLiteral("        <p>\r\n\t\t\t");
 
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
 WriteLiteral("\t\t\t");
 
@@ -524,7 +524,7 @@ WriteLiteral("\t\t\t");
             
             #line default
             #line hidden
-WriteLiteral("\n\t\t</p>\n");
+WriteLiteral("\r\n\t\t</p>\r\n");
 
             
             #line 77 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -533,7 +533,7 @@ WriteLiteral("\n\t\t</p>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
             
             #line 79 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -549,7 +549,7 @@ WriteLiteral("\n");
             
             #line default
             #line hidden
-WriteLiteral("        <p>\n");
+WriteLiteral("        <p>\r\n");
 
 WriteLiteral("            ");
 
@@ -560,7 +560,7 @@ WriteLiteral("            ");
             
             #line default
             #line hidden
-WriteLiteral("\n        </p>\n");
+WriteLiteral("\r\n        </p>\r\n");
 
             
             #line 84 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -569,7 +569,7 @@ WriteLiteral("\n        </p>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n    <p>\n");
+WriteLiteral("\r\n    <p>\r\n");
 
 WriteLiteral("        ");
 
@@ -580,7 +580,7 @@ WriteLiteral("        ");
             
             #line default
             #line hidden
-WriteLiteral("\n\t</p>\n    \n");
+WriteLiteral("\r\n\t</p>\r\n    \r\n");
 
             
             #line 90 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -596,7 +596,7 @@ WriteLiteral("\n\t</p>\n    \n");
             
             #line default
             #line hidden
-WriteLiteral("        <div>\n            <span>");
+WriteLiteral("        <div>\r\n            <span>");
 
             
             #line 93 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -605,16 +605,16 @@ WriteLiteral("        <div>\n            <span>");
             
             #line default
             #line hidden
-WriteLiteral("</span>\n            <ul>\n                <li><a");
+WriteLiteral("</span>\r\n            <ul>\r\n                <li><a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2851), Tuple.Create("\"", 2890)
+WriteAttribute("href", Tuple.Create(" href=\"", 2945), Tuple.Create("\"", 2984)
             
             #line 95 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 2858), Tuple.Create<System.Object, System.Int32>(Model.Item.GenerateOutlookUrl()
+, Tuple.Create(Tuple.Create("", 2952), Tuple.Create<System.Object, System.Int32>(Model.Item.GenerateOutlookUrl()
             
             #line default
             #line hidden
-, 2858), false)
+, 2952), false)
 );
 
 WriteLiteral(" target=\"_blank\"");
@@ -628,16 +628,16 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>,</li>\n                <li><a");
+WriteLiteral("</a>,</li>\r\n                <li><a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2984), Tuple.Create("\"", 3020)
+WriteAttribute("href", Tuple.Create(" href=\"", 3079), Tuple.Create("\"", 3115)
             
             #line 96 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 2991), Tuple.Create<System.Object, System.Int32>(Model.Item.GenerateICalUrl()
+, Tuple.Create(Tuple.Create("", 3086), Tuple.Create<System.Object, System.Int32>(Model.Item.GenerateICalUrl()
             
             #line default
             #line hidden
-, 2991), false)
+, 3086), false)
 );
 
 WriteLiteral(" target=\"_blank\"");
@@ -651,16 +651,16 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>,</li>\n                <li><a");
+WriteLiteral("</a>,</li>\r\n                <li><a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 3111), Tuple.Create("\"", 3149)
+WriteAttribute("href", Tuple.Create(" href=\"", 3207), Tuple.Create("\"", 3245)
             
             #line 97 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 3118), Tuple.Create<System.Object, System.Int32>(Model.Item.GenerateGoogleUrl()
+, Tuple.Create(Tuple.Create("", 3214), Tuple.Create<System.Object, System.Int32>(Model.Item.GenerateGoogleUrl()
             
             #line default
             #line hidden
-, 3118), false)
+, 3214), false)
 );
 
 WriteLiteral(" target=\"_blank\"");
@@ -674,7 +674,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a></li>\n            </ul>\n        </div>\n");
+WriteLiteral("</a></li>\r\n            </ul>\r\n        </div>\r\n");
 
             
             #line 100 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -683,7 +683,7 @@ WriteLiteral("</a></li>\n            </ul>\n        </div>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
             
             #line 102 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -717,7 +717,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</p>\n");
+WriteLiteral("</p>\r\n");
 
             
             #line 105 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -726,7 +726,7 @@ WriteLiteral("</p>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
             
             #line 107 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -760,7 +760,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</p>\n");
+WriteLiteral("</p>\r\n");
 
             
             #line 110 "..\..\ResourcePackages\Bootstrap4\MVC\Views\EventScheduler\Detail.EventDetails.cshtml"
@@ -769,7 +769,7 @@ WriteLiteral("</p>\n");
             
             #line default
             #line hidden
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
 WriteLiteral("    ");
 
@@ -780,7 +780,7 @@ Write(Html.CommentsList(Model.Item.DataItem));
             
             #line default
             #line hidden
-WriteLiteral("\n\n</div>\n");
+WriteLiteral("\r\n\r\n</div>\r\n");
 
         }
     }

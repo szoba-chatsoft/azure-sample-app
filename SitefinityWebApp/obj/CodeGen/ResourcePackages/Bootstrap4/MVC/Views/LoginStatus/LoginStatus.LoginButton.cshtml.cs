@@ -55,7 +55,7 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.LoginStatus
         }
         public override void Execute()
         {
-WriteLiteral("\n");
+WriteLiteral("\r\n");
 
             
             #line 7 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
@@ -64,7 +64,7 @@ Write(Html.Script(ScriptRef.JQuery, "top", false));
             
             #line default
             #line hidden
-WriteLiteral("\n\n");
+WriteLiteral("\r\n\r\n");
 
             
             #line 9 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
@@ -74,19 +74,19 @@ WriteLiteral("\n\n");
             
             #line default
             #line hidden
-WriteLiteral("\n\n<div");
+WriteLiteral("\r\n\r\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 436), Tuple.Create("\"", 459)
+WriteAttribute("class", Tuple.Create(" class=\"", 448), Tuple.Create("\"", 471)
             
             #line 13 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
-, Tuple.Create(Tuple.Create("", 444), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 456), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 444), false)
+, 456), false)
 );
 
-WriteLiteral(">\n    <div");
+WriteLiteral(">\r\n    <div");
 
 WriteLiteral(" class=\"media\"");
 
@@ -94,15 +94,15 @@ WriteLiteral(" data-sf-role=\"sf-logged-in-view\"");
 
 WriteLiteral(" style=\"display: none\"");
 
-WriteLiteral(">\n        <div");
+WriteLiteral(">\r\n        <div");
 
 WriteLiteral(" class=\"media-left pr-2\"");
 
-WriteLiteral(">\n            <div");
+WriteLiteral(">\r\n            <div");
 
 WriteLiteral(" class=\"media-object\"");
 
-WriteLiteral(">\n                <img");
+WriteLiteral(">\r\n                <img");
 
 WriteLiteral(" data-sf-role=\"sf-logged-in-avatar\"");
 
@@ -112,40 +112,40 @@ WriteLiteral(" height=\"100\"");
 
 WriteLiteral(" alt=\"User avatar\"");
 
-WriteLiteral(" />\n            </div>\n        </div>\n        <div");
+WriteLiteral(" />\r\n            </div>\r\n        </div>\r\n        <div");
 
 WriteLiteral(" class=\"media-body\"");
 
-WriteLiteral(">\n            <a");
+WriteLiteral(">\r\n            <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 801), Tuple.Create("\"", 838)
+WriteAttribute("href", Tuple.Create(" href=\"", 821), Tuple.Create("\"", 858)
             
             #line 21 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
-, Tuple.Create(Tuple.Create("", 808), Tuple.Create<System.Object, System.Int32>(Model.ProfilePageUrl ?? "#"
+, Tuple.Create(Tuple.Create("", 828), Tuple.Create<System.Object, System.Int32>(Model.ProfilePageUrl ?? "#"
             
             #line default
             #line hidden
-, 808), false)
+, 828), false)
 );
 
 WriteLiteral(" data-sf-role=\"sf-logged-in-name\"");
 
-WriteLiteral("></a>\n            <p");
+WriteLiteral("></a>\r\n            <p");
 
 WriteLiteral(" data-sf-role=\"sf-logged-in-email\"");
 
-WriteLiteral("></p>\n            <a");
+WriteLiteral("></p>\r\n            <a");
 
 WriteLiteral(" class=\"btn btn-secondary\"");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 972), Tuple.Create("\"", 990)
+WriteAttribute("href", Tuple.Create(" href=\"", 994), Tuple.Create("\"", 1012)
             
             #line 23 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
-, Tuple.Create(Tuple.Create("", 979), Tuple.Create<System.Object, System.Int32>(SignOutUrl
+, Tuple.Create(Tuple.Create("", 1001), Tuple.Create<System.Object, System.Int32>(SignOutUrl
             
             #line default
             #line hidden
-, 979), false)
+, 1001), false)
 );
 
 WriteLiteral(">");
@@ -157,13 +157,13 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\n        </div>\n    </div>\n\n    <div");
+WriteLiteral("</a>\r\n        </div>\r\n    </div>\r\n\r\n    <div");
 
 WriteLiteral(" data-sf-role=\"sf-logged-out-view\"");
 
 WriteLiteral(" style=\"display: none\"");
 
-WriteLiteral(">\n\n        <button");
+WriteLiteral(">\r\n\r\n        <button");
 
 WriteLiteral(" class=\"btn btn-secondary\"");
 
@@ -178,16 +178,16 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</button>\n        <a");
+WriteLiteral("</button>\r\n        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 1235), Tuple.Create("\"", 1277)
+WriteAttribute("href", Tuple.Create(" href=\"", 1264), Tuple.Create("\"", 1306)
             
             #line 30 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
-, Tuple.Create(Tuple.Create("", 1242), Tuple.Create<System.Object, System.Int32>(Model.RegistrationPageUrl ?? "#"
+, Tuple.Create(Tuple.Create("", 1271), Tuple.Create<System.Object, System.Int32>(Model.RegistrationPageUrl ?? "#"
             
             #line default
             #line hidden
-, 1242), false)
+, 1271), false)
 );
 
 WriteLiteral(">");
@@ -199,87 +199,87 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\n\n    </div>\n</div>\n\n<input");
+WriteLiteral("</a>\r\n\r\n    </div>\r\n</div>\r\n\r\n<input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"sf-status-json-endpoint-url\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1396), Tuple.Create("\"", 1427)
+WriteAttribute("value", Tuple.Create(" value=\"", 1430), Tuple.Create("\"", 1461)
             
             #line 35 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
-, Tuple.Create(Tuple.Create("", 1404), Tuple.Create<System.Object, System.Int32>(Model.StatusServiceUrl
+, Tuple.Create(Tuple.Create("", 1438), Tuple.Create<System.Object, System.Int32>(Model.StatusServiceUrl
             
             #line default
             #line hidden
-, 1404), false)
+, 1438), false)
 );
 
-WriteLiteral("/>\n<input");
+WriteLiteral("/>\r\n<input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"sf-logout-redirect-url\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1489), Tuple.Create("\"", 1517)
+WriteAttribute("value", Tuple.Create(" value=\"", 1524), Tuple.Create("\"", 1552)
             
             #line 36 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
-, Tuple.Create(Tuple.Create("", 1497), Tuple.Create<System.Object, System.Int32>(Model.LogoutPageUrl
+, Tuple.Create(Tuple.Create("", 1532), Tuple.Create<System.Object, System.Int32>(Model.LogoutPageUrl
             
             #line default
             #line hidden
-, 1497), false)
+, 1532), false)
 );
 
-WriteLiteral("/>\n<input");
+WriteLiteral("/>\r\n<input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"sf-login-redirect-url\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1578), Tuple.Create("\"", 1605)
+WriteAttribute("value", Tuple.Create(" value=\"", 1614), Tuple.Create("\"", 1641)
             
             #line 37 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
-, Tuple.Create(Tuple.Create("", 1586), Tuple.Create<System.Object, System.Int32>(Model.LoginPageUrl
+, Tuple.Create(Tuple.Create("", 1622), Tuple.Create<System.Object, System.Int32>(Model.LoginPageUrl
             
             #line default
             #line hidden
-, 1586), false)
+, 1622), false)
 );
 
-WriteLiteral(" />\n<input");
+WriteLiteral(" />\r\n<input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"sf-is-design-mode-value\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1669), Tuple.Create("\"", 1709)
+WriteAttribute("value", Tuple.Create(" value=\"", 1706), Tuple.Create("\"", 1746)
             
             #line 38 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
-, Tuple.Create(Tuple.Create("", 1677), Tuple.Create<System.Object, System.Int32>(ViewBag.IsDesignMode.ToString()
+, Tuple.Create(Tuple.Create("", 1714), Tuple.Create<System.Object, System.Int32>(ViewBag.IsDesignMode.ToString()
             
             #line default
             #line hidden
-, 1677), false)
+, 1714), false)
 );
 
-WriteLiteral(" />\n<input");
+WriteLiteral(" />\r\n<input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"sf-allow-windows-sts-login\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 1776), Tuple.Create("\"", 1822)
+WriteAttribute("value", Tuple.Create(" value=\"", 1814), Tuple.Create("\"", 1860)
             
             #line 39 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
-, Tuple.Create(Tuple.Create("", 1784), Tuple.Create<System.Object, System.Int32>(Model.AllowWindowsStsLogin.ToString()
+, Tuple.Create(Tuple.Create("", 1822), Tuple.Create<System.Object, System.Int32>(Model.AllowWindowsStsLogin.ToString()
             
             #line default
             #line hidden
-, 1784), false)
+, 1822), false)
 );
 
-WriteLiteral(" />\n\n");
+WriteLiteral(" />\r\n\r\n");
 
             
             #line 41 "..\..\ResourcePackages\Bootstrap4\MVC\Views\LoginStatus\LoginStatus.LoginButton.cshtml"
