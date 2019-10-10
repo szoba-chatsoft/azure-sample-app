@@ -42,35 +42,35 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.Breadcrumb
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 146), Tuple.Create("\"", 169)
+WriteAttribute("class", Tuple.Create(" class=\"", 142), Tuple.Create("\"", 165)
             
             #line 5 "..\..MVC\Views\Breadcrumb\Breadcrumb.cshtml"
-, Tuple.Create(Tuple.Create("", 154), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 150), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 154), false)
+, 150), false)
 );
 
-WriteLiteral(">\r\n    <nav");
+WriteLiteral(">\n    <nav");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 181), Tuple.Create("\"", 234)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 176), Tuple.Create("\"", 229)
             
             #line 6 "..\..MVC\Views\Breadcrumb\Breadcrumb.cshtml"
-, Tuple.Create(Tuple.Create("", 194), Tuple.Create<System.Object, System.Int32>(Html.Resource("BreadcrumbShowFullPath")
+, Tuple.Create(Tuple.Create("", 189), Tuple.Create<System.Object, System.Int32>(Html.Resource("BreadcrumbShowFullPath")
             
             #line default
             #line hidden
-, 194), false)
+, 189), false)
 );
 
-WriteLiteral(">\r\n        <ol");
+WriteLiteral(">\n        <ol");
 
 WriteLiteral(" class=\"sf-breadscrumb breadcrumb\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 8 "..\..MVC\Views\Breadcrumb\Breadcrumb.cshtml"
@@ -105,7 +105,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</li>\r\n");
+WriteLiteral("</li>\n");
 
             
             #line 15 "..\..MVC\Views\Breadcrumb\Breadcrumb.cshtml"
@@ -122,14 +122,14 @@ WriteLiteral(" class=\"breadcrumb-item\"");
 
 WriteLiteral("><a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 730), Tuple.Create("\"", 746)
+WriteAttribute("href", Tuple.Create(" href=\"", 713), Tuple.Create("\"", 729)
             
             #line 18 "..\..MVC\Views\Breadcrumb\Breadcrumb.cshtml"
-, Tuple.Create(Tuple.Create("", 737), Tuple.Create<System.Object, System.Int32>(node.Url
+, Tuple.Create(Tuple.Create("", 720), Tuple.Create<System.Object, System.Int32>(node.Url
             
             #line default
             #line hidden
-, 737), false)
+, 720), false)
 );
 
 WriteLiteral(">");
@@ -141,7 +141,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral(" </a></li>\r\n");
+WriteLiteral(" </a></li>\n");
 
             
             #line 19 "..\..MVC\Views\Breadcrumb\Breadcrumb.cshtml"
@@ -151,7 +151,7 @@ WriteLiteral(" </a></li>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("        </ol>\r\n    </nav>\r\n</div>");
+WriteLiteral("        </ol>\n    </nav>\n</div>");
 
         }
     }

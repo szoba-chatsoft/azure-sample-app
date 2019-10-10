@@ -90,20 +90,20 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.UsersList
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 512), Tuple.Create("\"", 546)
+WriteAttribute("class", Tuple.Create(" class=\"", 500), Tuple.Create("\"", 534)
             
             #line 13 "..\..MVC\Views\UsersList\List.UsersList.cshtml"
-, Tuple.Create(Tuple.Create("", 520), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 508), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 520), false)
-, Tuple.Create(Tuple.Create(" ", 535), Tuple.Create("media-list", 536), true)
+, 508), false)
+, Tuple.Create(Tuple.Create(" ", 523), Tuple.Create("media-list", 524), true)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 14 "..\..MVC\Views\UsersList\List.UsersList.cshtml"
@@ -125,55 +125,55 @@ WriteLiteral("            <div");
 
 WriteLiteral(" class=\"media sf-media\"");
 
-WriteLiteral(">\r\n                <div");
+WriteLiteral(">\n                <div");
 
 WriteLiteral(" class=\"media-left pr-2 sf-img-thmb\"");
 
-WriteLiteral(">\r\n                    <img");
+WriteLiteral(">\n                    <img");
 
 WriteLiteral(" class=\"media-object\"");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 815), Tuple.Create("\"", 879)
+WriteAttribute("src", Tuple.Create(" src=\"", 796), Tuple.Create("\"", 860)
             
             #line 20 "..\..MVC\Views\UsersList\List.UsersList.cshtml"
-, Tuple.Create(Tuple.Create("", 821), Tuple.Create<System.Object, System.Int32>((item as SitefinityProfileItemViewModel).AvatarImageUrl
+, Tuple.Create(Tuple.Create("", 802), Tuple.Create<System.Object, System.Int32>((item as SitefinityProfileItemViewModel).AvatarImageUrl
             
             #line default
             #line hidden
-, 821), false)
+, 802), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 880), Tuple.Create("\"", 908)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 861), Tuple.Create("\"", 889)
             
             #line 20 "..\..MVC\Views\UsersList\List.UsersList.cshtml"
-                                     , Tuple.Create(Tuple.Create("", 886), Tuple.Create<System.Object, System.Int32>(item.Fields.FirstName
+                                     , Tuple.Create(Tuple.Create("", 867), Tuple.Create<System.Object, System.Int32>(item.Fields.FirstName
             
             #line default
             #line hidden
-, 886), false)
+, 867), false)
 );
 
 WriteLiteral(" width=\"100\"");
 
 WriteLiteral(" height=\"100\"");
 
-WriteLiteral(" />\r\n                </div>\r\n\r\n                <div");
+WriteLiteral(" />\n                </div>\n\n                <div");
 
 WriteLiteral(" class=\"media-body sf-media-body\"");
 
-WriteLiteral(">\r\n                    <h3>\r\n                        <a");
+WriteLiteral(">\n                    <h3>\n                        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 1073), Tuple.Create("\"", 1238)
+WriteAttribute("href", Tuple.Create(" href=\"", 1049), Tuple.Create("\"", 1214)
             
             #line 25 "..\..MVC\Views\UsersList\List.UsersList.cshtml"
-, Tuple.Create(Tuple.Create("", 1080), Tuple.Create<System.Object, System.Int32>(UsersHelper.EncodeUrlUsername(HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage), item as SitefinityProfileItemViewModel)
+, Tuple.Create(Tuple.Create("", 1056), Tuple.Create<System.Object, System.Int32>(UsersHelper.EncodeUrlUsername(HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage), item as SitefinityProfileItemViewModel)
             
             #line default
             #line hidden
-, 1080), false)
+, 1056), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("                            ");
 
@@ -184,8 +184,7 @@ WriteLiteral("                            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                        </a>\r\n                    </h3>\r\n                    <p" +
-">\r\n");
+WriteLiteral("\n                        </a>\n                    </h3>\n                    <p>\n");
 
 WriteLiteral("                        ");
 
@@ -196,7 +195,7 @@ WriteLiteral("                        ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                    </p>\r\n                </div>\r\n\r\n            </div>\r\n");
+WriteLiteral("\n                    </p>\n                </div>\n\n            </div>\n");
 
             
             #line 35 "..\..MVC\Views\UsersList\List.UsersList.cshtml"
@@ -229,19 +228,19 @@ WriteLiteral("\r\n                    </p>\r\n                </div>\r\n\r\n    
             
             #line default
             #line hidden
-WriteLiteral("                <h3>\r\n                    <a");
+WriteLiteral("                <h3>\n                    <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 1868), Tuple.Create("\"", 1962)
+WriteAttribute("href", Tuple.Create(" href=\"", 1821), Tuple.Create("\"", 1915)
             
             #line 48 "..\..MVC\Views\UsersList\List.UsersList.cshtml"
-, Tuple.Create(Tuple.Create("", 1875), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage)
+, Tuple.Create(Tuple.Create("", 1828), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage)
             
             #line default
             #line hidden
-, 1875), false)
+, 1828), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("                        ");
 
@@ -252,7 +251,7 @@ WriteLiteral("                        ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                    </a>\r\n                </h3>\r\n");
+WriteLiteral("\n                    </a>\n                </h3>\n");
 
             
             #line 52 "..\..MVC\Views\UsersList\List.UsersList.cshtml"
@@ -263,7 +262,7 @@ WriteLiteral("\r\n                    </a>\r\n                </h3>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 56 "..\..MVC\Views\UsersList\List.UsersList.cshtml"
@@ -299,7 +298,7 @@ WriteLiteral("\r\n");
             
             #line default
             #line hidden
-WriteLiteral("</div>\r\n");
+WriteLiteral("</div>\n");
 
         }
     }

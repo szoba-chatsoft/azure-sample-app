@@ -60,7 +60,7 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.VideoGallery
         }
         public override void Execute()
         {
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 8 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
@@ -69,7 +69,7 @@ Write(Html.StyleSheet(Url.WidgetContent("assets/magnific/magnific-popup.css"), "
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 9 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
@@ -78,7 +78,7 @@ Write(Html.Script(ScriptRef.JQuery, "top", false));
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 10 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
@@ -87,7 +87,7 @@ Write(Html.Script(Url.WidgetContent("assets/magnific/jquery.magnific-popup.min.j
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 11 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
@@ -96,27 +96,27 @@ Write(Html.Script(Url.WidgetContent("Mvc/Scripts/VideoGallery/overlay-gallery.js
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n<div");
+WriteLiteral("\n\n<div");
 
 WriteLiteral(" class=\"sf-Gallery-thumbs-container\"");
 
-WriteLiteral(">\r\n    <ul");
+WriteLiteral(">\n    <ul");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 641), Tuple.Create("\"", 730)
-, Tuple.Create(Tuple.Create("", 649), Tuple.Create("sf-Gallery-thumbs", 649), true)
-, Tuple.Create(Tuple.Create(" ", 666), Tuple.Create("sf-Gallery-thumbs--video", 667), true)
-, Tuple.Create(Tuple.Create(" ", 691), Tuple.Create("list-unstyled", 692), true)
-, Tuple.Create(Tuple.Create(" ", 705), Tuple.Create("clearfix", 706), true)
+WriteAttribute("class", Tuple.Create(" class=\"", 628), Tuple.Create("\"", 717)
+, Tuple.Create(Tuple.Create("", 636), Tuple.Create("sf-Gallery-thumbs", 636), true)
+, Tuple.Create(Tuple.Create(" ", 653), Tuple.Create("sf-Gallery-thumbs--video", 654), true)
+, Tuple.Create(Tuple.Create(" ", 678), Tuple.Create("list-unstyled", 679), true)
+, Tuple.Create(Tuple.Create(" ", 692), Tuple.Create("clearfix", 693), true)
             
             #line 14 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
- , Tuple.Create(Tuple.Create(" ", 714), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+ , Tuple.Create(Tuple.Create(" ", 701), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 715), false)
+, 702), false)
 );
 
-WriteLiteral(">\r\n    \r\n");
+WriteLiteral(">\n    \n");
 
             
             #line 16 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
@@ -141,63 +141,63 @@ WriteLiteral("            <li");
 
 WriteLiteral(" class=\"sf-Gallery-thumb d-inline-block\"");
 
-WriteLiteral(">\r\n                <a");
+WriteLiteral(">\n                <a");
 
 WriteLiteral(" class=\"video-link\"");
 
-WriteAttribute("href", Tuple.Create("\r\n                    href=\"", 1186), Tuple.Create("\"", 1235)
+WriteAttribute("href", Tuple.Create("\n                    href=\"", 1166), Tuple.Create("\"", 1214)
             
             #line 25 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
-, Tuple.Create(Tuple.Create("", 1214), Tuple.Create<System.Object, System.Int32>(item.Fields.MediaUrl
+, Tuple.Create(Tuple.Create("", 1193), Tuple.Create<System.Object, System.Int32>(item.Fields.MediaUrl
             
             #line default
             #line hidden
-, 1214), false)
+, 1193), false)
 );
 
-WriteAttribute("title", Tuple.Create("\r\n                    title=\"", 1236), Tuple.Create("\"", 1271)
+WriteAttribute("title", Tuple.Create("\n                    title=\"", 1215), Tuple.Create("\"", 1249)
             
             #line 26 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
-, Tuple.Create(Tuple.Create("", 1265), Tuple.Create<System.Object, System.Int32>(title
+, Tuple.Create(Tuple.Create("", 1243), Tuple.Create<System.Object, System.Int32>(title
             
             #line default
             #line hidden
-, 1265), false)
+, 1243), false)
 );
 
-WriteAttribute("aria-label", Tuple.Create("\r\n                   \r\n                    aria-label=\"", 1272), Tuple.Create("\"", 1384)
+WriteAttribute("aria-label", Tuple.Create("\n                   \n                    aria-label=\"", 1250), Tuple.Create("\"", 1360)
             
             #line 28 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
-, Tuple.Create(Tuple.Create("", 1327), Tuple.Create<System.Object, System.Int32>(string.Format(Html.Resource("OpenInModalDialog"), title)
+, Tuple.Create(Tuple.Create("", 1303), Tuple.Create<System.Object, System.Int32>(string.Format(Html.Resource("OpenInModalDialog"), title)
             
             #line default
             #line hidden
-, 1327), false)
+, 1303), false)
 );
 
-WriteLiteral(">\r\n                    <img");
+WriteLiteral(">\n                    <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 1412), Tuple.Create("\"", 1465)
+WriteAttribute("src", Tuple.Create(" src=\"", 1387), Tuple.Create("\"", 1440)
             
             #line 29 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
-, Tuple.Create(Tuple.Create("", 1418), Tuple.Create<System.Object, System.Int32>(((VideoThumbnailViewModel)item).ThumbnailUrl
+, Tuple.Create(Tuple.Create("", 1393), Tuple.Create<System.Object, System.Int32>(((VideoThumbnailViewModel)item).ThumbnailUrl
             
             #line default
             #line hidden
-, 1418), false)
+, 1393), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 1466), Tuple.Create("\"", 1488)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 1441), Tuple.Create("\"", 1463)
             
             #line 29 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
-    , Tuple.Create(Tuple.Create("", 1472), Tuple.Create<System.Object, System.Int32>(alternativeText
+    , Tuple.Create(Tuple.Create("", 1447), Tuple.Create<System.Object, System.Int32>(alternativeText
             
             #line default
             #line hidden
-, 1472), false)
+, 1447), false)
 );
 
-WriteLiteral(" \r\n                        data-detail-url=\"");
+WriteLiteral(" \n                        data-detail-url=\"");
 
             
             #line 30 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
@@ -208,26 +208,26 @@ WriteLiteral(" \r\n                        data-detail-url=\"");
             #line hidden
 WriteLiteral("\"");
 
-WriteAttribute("aria-labelledby", Tuple.Create(" aria-labelledby=\"", 1641), Tuple.Create("\"", 1672)
+WriteAttribute("aria-labelledby", Tuple.Create(" aria-labelledby=\"", 1615), Tuple.Create("\"", 1646)
             
             #line 30 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
-                                                                                       , Tuple.Create(Tuple.Create("", 1659), Tuple.Create<System.Object, System.Int32>(videoTitleId
+                                                                                       , Tuple.Create(Tuple.Create("", 1633), Tuple.Create<System.Object, System.Int32>(videoTitleId
             
             #line default
             #line hidden
-, 1659), false)
+, 1633), false)
 );
 
-WriteLiteral(" />\r\n                </a>\r\n                <h3");
+WriteLiteral(" />\n                </a>\n                <h3");
 
-WriteAttribute("id", Tuple.Create(" id=\"", 1719), Tuple.Create("\"", 1737)
+WriteAttribute("id", Tuple.Create(" id=\"", 1691), Tuple.Create("\"", 1709)
             
             #line 32 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
-, Tuple.Create(Tuple.Create("", 1724), Tuple.Create<System.Object, System.Int32>(videoTitleId
+, Tuple.Create(Tuple.Create("", 1696), Tuple.Create<System.Object, System.Int32>(videoTitleId
             
             #line default
             #line hidden
-, 1724), false)
+, 1696), false)
 );
 
 WriteLiteral(">");
@@ -239,7 +239,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</h3>\r\n            </li>\r\n");
+WriteLiteral("</h3>\n            </li>\n");
 
             
             #line 34 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"
@@ -249,7 +249,7 @@ WriteLiteral("</h3>\r\n            </li>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("    </ul>\r\n</div>\r\n\r\n");
+WriteLiteral("    </ul>\n</div>\n\n");
 
             
             #line 39 "..\..MVC\Views\VideoGallery\List.OverlayGallery.cshtml"

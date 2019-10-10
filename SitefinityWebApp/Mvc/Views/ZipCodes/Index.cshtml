@@ -1,0 +1,13 @@
+﻿@model IEnumerable<SitefinityWebApp.Mvc.Models.ZipCodesModel>
+
+<table>
+    <h1>
+
+    </h1>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(i => item.Zipcode)</td>
+        </tr>
+    }
+</table>

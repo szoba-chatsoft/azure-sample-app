@@ -60,23 +60,23 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.Event
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 265), Tuple.Create("\"", 288)
+WriteAttribute("class", Tuple.Create(" class=\"", 258), Tuple.Create("\"", 281)
             
             #line 8 "..\..MVC\Views\Event\List.EventsList.cshtml"
-, Tuple.Create(Tuple.Create("", 273), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 266), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 273), false)
+, 266), false)
 );
 
-WriteLiteral(">\r\n    <ul");
+WriteLiteral(">\n    <ul");
 
 WriteLiteral(" class=\"list-unstyled\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 10 "..\..MVC\Views\Event\List.EventsList.cshtml"
@@ -103,11 +103,11 @@ WriteLiteral("            <li ");
             
             #line default
             #line hidden
-WriteLiteral(">\r\n                <h3");
+WriteLiteral(">\n                <h3");
 
 WriteLiteral(" class=\"sf-event-title\"");
 
-WriteLiteral(">\r\n                    <a ");
+WriteLiteral(">\n                    <a ");
 
             
             #line 16 "..\..MVC\Views\Event\List.EventsList.cshtml"
@@ -134,7 +134,7 @@ WriteLiteral("\">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n                </h3>\r\n                <span");
+WriteLiteral("</a>\n                </h3>\n                <span");
 
 WriteLiteral(" data-calendar-color=\"");
 
@@ -147,13 +147,13 @@ WriteLiteral(" data-calendar-color=\"");
             #line hidden
 WriteLiteral("\"");
 
-WriteLiteral("></span>\r\n                <p");
+WriteLiteral("></span>\n                <p");
 
 WriteLiteral(" class=\"text-muted\"");
 
-WriteLiteral(">\r\n                    ");
+WriteLiteral(">\n                    ");
 
-WriteLiteral("\r\n                    <time>");
+WriteLiteral("\n                    <time>");
 
             
             #line 21 "..\..MVC\Views\Event\List.EventsList.cshtml"
@@ -188,7 +188,7 @@ WriteLiteral("</span>");
             
             #line default
             #line hidden
-WriteLiteral("                </p>\r\n                <p ");
+WriteLiteral("                </p>\n                <p ");
 
             
             #line 23 "..\..MVC\Views\Event\List.EventsList.cshtml"
@@ -206,7 +206,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n                <div");
+WriteLiteral("</p>\n                <div");
 
 WriteLiteral(" class=\"sf-Comment-count--block\"");
 
@@ -219,7 +219,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</div>\r\n            </li>\r\n");
+WriteLiteral("</div>\n            </li>\n");
 
             
             #line 26 "..\..MVC\Views\Event\List.EventsList.cshtml"
@@ -228,7 +228,7 @@ WriteLiteral("</div>\r\n            </li>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("    </ul>\r\n\r\n");
+WriteLiteral("    </ul>\n\n");
 
             
             #line 29 "..\..MVC\Views\Event\List.EventsList.cshtml"
@@ -264,7 +264,7 @@ WriteLiteral("    </ul>\r\n\r\n");
             
             #line default
             #line hidden
-WriteLiteral("</div>\r\n");
+WriteLiteral("</div>\n");
 
         }
     }

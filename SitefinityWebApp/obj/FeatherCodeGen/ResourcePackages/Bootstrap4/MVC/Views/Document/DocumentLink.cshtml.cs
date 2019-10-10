@@ -42,19 +42,19 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.Document
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 137), Tuple.Create("\"", 160)
+WriteAttribute("class", Tuple.Create(" class=\"", 133), Tuple.Create("\"", 156)
             
             #line 5 "..\..MVC\Views\Document\DocumentLink.cshtml"
-, Tuple.Create(Tuple.Create("", 145), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 141), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 145), false)
+, 141), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 6 "..\..MVC\Views\Document\DocumentLink.cshtml"
@@ -74,39 +74,39 @@ WriteLiteral("        <div");
 
 WriteLiteral(" class=\"media d-flex align-items-center\"");
 
-WriteLiteral(">\r\n          <div");
+WriteLiteral(">\n          <div");
 
 WriteLiteral(" class=\"media-left pr-2 pt-1\"");
 
 WriteLiteral(" aria-hidden=\"true\"");
 
-WriteLiteral(">\r\n            <span");
+WriteLiteral(">\n            <span");
 
 WriteLiteral(" class=\"sf-icon-txt\"");
 
-WriteLiteral(">\r\n              <svg");
+WriteLiteral(">\n              <svg");
 
 WriteLiteral(" class=\"sf-icon-file sf-icon-txt sf-icon-lg\"");
 
-WriteLiteral(">\r\n                  <use");
+WriteLiteral(">\n                  <use");
 
-WriteAttribute("xlink:href", Tuple.Create(" xlink:href=\"", 466), Tuple.Create("\"", 543)
-, Tuple.Create(Tuple.Create("", 479), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/Bootstrap4/assets/dist/sprites/solid.svg#file")
-, 479), false)
+WriteAttribute("xlink:href", Tuple.Create(" xlink:href=\"", 455), Tuple.Create("\"", 532)
+, Tuple.Create(Tuple.Create("", 468), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/Bootstrap4/assets/dist/sprites/solid.svg#file")
+, 468), false)
 );
 
-WriteLiteral("></use>\r\n              </svg>\r\n              <span");
+WriteLiteral("></use>\n              </svg>\n              <span");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 594), Tuple.Create("\"", 645)
-, Tuple.Create(Tuple.Create("", 602), Tuple.Create("sf-icon-txt-md", 602), true)
-, Tuple.Create(Tuple.Create(" ", 616), Tuple.Create("sf-icon-txt-", 617), true)
+WriteAttribute("class", Tuple.Create(" class=\"", 581), Tuple.Create("\"", 632)
+, Tuple.Create(Tuple.Create("", 589), Tuple.Create("sf-icon-txt-md", 589), true)
+, Tuple.Create(Tuple.Create(" ", 603), Tuple.Create("sf-icon-txt-", 604), true)
             
             #line 14 "..\..MVC\Views\Document\DocumentLink.cshtml"
-, Tuple.Create(Tuple.Create("", 629), Tuple.Create<System.Object, System.Int32>(Model.Extension
+, Tuple.Create(Tuple.Create("", 616), Tuple.Create<System.Object, System.Int32>(Model.Extension
             
             #line default
             #line hidden
-, 629), false)
+, 616), false)
 );
 
 WriteLiteral(">");
@@ -118,32 +118,32 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</span>\r\n            </span>\r\n          </div>\r\n          <div");
+WriteLiteral("</span>\n            </span>\n          </div>\n          <div");
 
 WriteLiteral(" class=\"media-body\"");
 
 WriteLiteral(" role=\"group\"");
 
-WriteLiteral(">\r\n              <div>\r\n                <a");
+WriteLiteral(">\n              <div>\n                <a");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 799), Tuple.Create("\"", 844)
+WriteAttribute("class", Tuple.Create(" class=\"", 781), Tuple.Create("\"", 826)
             
             #line 19 "..\..MVC\Views\Document\DocumentLink.cshtml"
-, Tuple.Create(Tuple.Create("", 807), Tuple.Create<System.Object, System.Int32>(String.Concat("sf", Model.Extension)
+, Tuple.Create(Tuple.Create("", 789), Tuple.Create<System.Object, System.Int32>(String.Concat("sf", Model.Extension)
             
             #line default
             #line hidden
-, 807), false)
+, 789), false)
 );
 
-WriteAttribute("href", Tuple.Create(" href=\"", 845), Tuple.Create("\"", 867)
+WriteAttribute("href", Tuple.Create(" href=\"", 827), Tuple.Create("\"", 849)
             
             #line 19 "..\..MVC\Views\Document\DocumentLink.cshtml"
-, Tuple.Create(Tuple.Create("", 852), Tuple.Create<System.Object, System.Int32>(Model.MediaUrl
+, Tuple.Create(Tuple.Create("", 834), Tuple.Create<System.Object, System.Int32>(Model.MediaUrl
             
             #line default
             #line hidden
-, 852), false)
+, 834), false)
 );
 
 WriteLiteral(" target=\"_blank\"");
@@ -157,18 +157,18 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a> \r\n                <span");
+WriteLiteral("</a> \n                <span");
 
 WriteLiteral(" class=\"text-muted\"");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 944), Tuple.Create("\"", 988)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 925), Tuple.Create("\"", 969)
             
             #line 20 "..\..MVC\Views\Document\DocumentLink.cshtml"
-, Tuple.Create(Tuple.Create("", 957), Tuple.Create<System.Object, System.Int32>(Html.Resource("FileExtension")
+, Tuple.Create(Tuple.Create("", 938), Tuple.Create<System.Object, System.Int32>(Html.Resource("FileExtension")
             
             #line default
             #line hidden
-, 957), false)
+, 938), false)
 );
 
 WriteLiteral(">(");
@@ -180,18 +180,18 @@ WriteLiteral(">(");
             
             #line default
             #line hidden
-WriteLiteral(")</span>\r\n              </div>\r\n            <span");
+WriteLiteral(")</span>\n              </div>\n            <span");
 
 WriteLiteral(" class=\"text-muted\"");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 1075), Tuple.Create("\"", 1114)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 1054), Tuple.Create("\"", 1093)
             
             #line 22 "..\..MVC\Views\Document\DocumentLink.cshtml"
-, Tuple.Create(Tuple.Create("", 1088), Tuple.Create<System.Object, System.Int32>(Html.Resource("FileSize")
+, Tuple.Create(Tuple.Create("", 1067), Tuple.Create<System.Object, System.Int32>(Html.Resource("FileSize")
             
             #line default
             #line hidden
-, 1088), false)
+, 1067), false)
 );
 
 WriteLiteral(">");
@@ -203,7 +203,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral(" KB</span>\r\n          </div>\r\n        </div>\r\n");
+WriteLiteral(" KB</span>\n          </div>\n        </div>\n");
 
             
             #line 25 "..\..MVC\Views\Document\DocumentLink.cshtml"

@@ -54,16 +54,16 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.VideoGallery
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 219), Tuple.Create("\"", 242)
+WriteAttribute("class", Tuple.Create(" class=\"", 213), Tuple.Create("\"", 236)
             
             #line 7 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 227), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 221), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 227), false)
+, 221), false)
 );
 
 WriteLiteral(" ");
@@ -75,30 +75,30 @@ WriteLiteral(" ");
             
             #line default
             #line hidden
-WriteLiteral(">\r\n    <figure");
+WriteLiteral(">\n    <figure");
 
-WriteAttribute("aria-labelledby", Tuple.Create(" aria-labelledby=\"", 363), Tuple.Create("\"", 409)
+WriteAttribute("aria-labelledby", Tuple.Create(" aria-labelledby=\"", 356), Tuple.Create("\"", 402)
             
             #line 8 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 381), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoTitle")
+, Tuple.Create(Tuple.Create("", 374), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoTitle")
             
             #line default
             #line hidden
-, 381), false)
+, 374), false)
 );
 
-WriteLiteral(">\r\n        <figcaption");
+WriteLiteral(">\n        <figcaption");
 
 WriteLiteral(" class=\"h2\"");
 
-WriteAttribute("id", Tuple.Create("  id=\"", 443), Tuple.Create("\"", 477)
+WriteAttribute("id", Tuple.Create("  id=\"", 435), Tuple.Create("\"", 469)
             
             #line 9 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 449), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoTitle")
+, Tuple.Create(Tuple.Create("", 441), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoTitle")
             
             #line default
             #line hidden
-, 449), false)
+, 441), false)
 );
 
 WriteLiteral(" ");
@@ -119,11 +119,11 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</figcaption>\r\n        <div");
+WriteLiteral("</figcaption>\n        <div");
 
 WriteLiteral(" class=\"text-muted\"");
 
-WriteLiteral(">\r\n            <span");
+WriteLiteral(">\n            <span");
 
 WriteLiteral(" class=\"sr-only\"");
 
@@ -136,7 +136,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral(" </span>\r\n");
+WriteLiteral(" </span>\n");
 
 WriteLiteral("            ");
 
@@ -147,7 +147,7 @@ WriteLiteral("            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
 WriteLiteral("            ");
 
@@ -158,7 +158,7 @@ WriteLiteral("            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
 WriteLiteral("            ");
 
@@ -169,7 +169,7 @@ WriteLiteral("            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n        </div>\r\n        <p ");
+WriteLiteral("\n        </div>\n        <p ");
 
             
             #line 16 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
@@ -196,61 +196,61 @@ WriteLiteral("\'>");
             
             #line default
             #line hidden
-WriteLiteral("</p>        \r\n        <video");
+WriteLiteral("</p>        \n        <video");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 1078), Tuple.Create("\"", 1109)
+WriteAttribute("src", Tuple.Create(" src=\"", 1062), Tuple.Create("\"", 1093)
             
             #line 17 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1084), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.MediaUrl)
+, Tuple.Create(Tuple.Create("", 1068), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.MediaUrl)
             
             #line default
             #line hidden
-, 1084), false)
+, 1068), false)
 );
 
 WriteLiteral(" controls=\"controls\"");
 
-WriteAttribute("width", Tuple.Create(" width=\"", 1130), Tuple.Create("\"", 1150)
+WriteAttribute("width", Tuple.Create(" width=\"", 1114), Tuple.Create("\"", 1134)
             
             #line 17 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1138), Tuple.Create<System.Object, System.Int32>(Model.Width
+, Tuple.Create(Tuple.Create("", 1122), Tuple.Create<System.Object, System.Int32>(Model.Width
             
             #line default
             #line hidden
-, 1138), false)
+, 1122), false)
 );
 
-WriteAttribute("height", Tuple.Create(" height=\"", 1151), Tuple.Create("\"", 1173)
+WriteAttribute("height", Tuple.Create(" height=\"", 1135), Tuple.Create("\"", 1157)
             
             #line 17 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-                , Tuple.Create(Tuple.Create("", 1160), Tuple.Create<System.Object, System.Int32>(Model.Height
+                , Tuple.Create(Tuple.Create("", 1144), Tuple.Create<System.Object, System.Int32>(Model.Height
             
             #line default
             #line hidden
-, 1160), false)
+, 1144), false)
 );
 
-WriteAttribute("aria-labelledby", Tuple.Create(" aria-labelledby=\'", 1174), Tuple.Create("\'", 1220)
+WriteAttribute("aria-labelledby", Tuple.Create(" aria-labelledby=\'", 1158), Tuple.Create("\'", 1204)
             
             #line 17 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-                                                , Tuple.Create(Tuple.Create("", 1192), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoTitle")
+                                                , Tuple.Create(Tuple.Create("", 1176), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoTitle")
             
             #line default
             #line hidden
-, 1192), false)
+, 1176), false)
 );
 
-WriteAttribute("aria-describedby", Tuple.Create(" aria-describedby=\'", 1221), Tuple.Create("\'", 1267)
+WriteAttribute("aria-describedby", Tuple.Create(" aria-describedby=\'", 1205), Tuple.Create("\'", 1251)
             
             #line 17 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-                                                                                                , Tuple.Create(Tuple.Create("", 1240), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoInfo")
+                                                                                                , Tuple.Create(Tuple.Create("", 1224), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoInfo")
             
             #line default
             #line hidden
-, 1240), false)
+, 1224), false)
 );
 
-WriteLiteral("></video>\r\n    </figure>\r\n");
+WriteLiteral("></video>\n    </figure>\n");
 
             
             #line 19 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
@@ -270,19 +270,19 @@ WriteLiteral("        <nav");
 
 WriteLiteral(" role=\"navigation\"");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 1368), Tuple.Create("\"", 1416)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 1348), Tuple.Create("\"", 1396)
             
             #line 21 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1381), Tuple.Create<System.Object, System.Int32>(Html.Resource("PreviousNextVideo")
+, Tuple.Create(Tuple.Create("", 1361), Tuple.Create<System.Object, System.Int32>(Html.Resource("PreviousNextVideo")
             
             #line default
             #line hidden
-, 1381), false)
+, 1361), false)
 );
 
 WriteLiteral(" class=\"text-center clearfix\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 22 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
@@ -299,7 +299,7 @@ WriteLiteral(">\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
             
             #line 27 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
@@ -319,27 +319,27 @@ WriteLiteral("                <a");
 
 WriteLiteral(" class=\"sf-Gallery-prev--simple\"");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 1816), Tuple.Create("\"", 1864)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 1788), Tuple.Create("\"", 1836)
             
             #line 29 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1829), Tuple.Create<System.Object, System.Int32>(Html.Resource("GoToPreviousVideo")
+, Tuple.Create(Tuple.Create("", 1801), Tuple.Create<System.Object, System.Int32>(Html.Resource("GoToPreviousVideo")
             
             #line default
             #line hidden
-, 1829), false)
+, 1801), false)
 );
 
-WriteAttribute("href", Tuple.Create(" href=\"", 1865), Tuple.Create("\"", 2014)
+WriteAttribute("href", Tuple.Create(" href=\"", 1837), Tuple.Create("\"", 1986)
             
             #line 29 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-                          , Tuple.Create(Tuple.Create("", 1872), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.PreviousItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, previousItemIndex)
+                          , Tuple.Create(Tuple.Create("", 1844), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.PreviousItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, previousItemIndex)
             
             #line default
             #line hidden
-, 1872), false)
+, 1844), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("                    ");
 
@@ -350,7 +350,7 @@ WriteLiteral("                    ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                </a>\r\n");
+WriteLiteral("\n                </a>\n");
 
             
             #line 32 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
@@ -359,7 +359,7 @@ WriteLiteral("\r\n                </a>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 34 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
@@ -390,7 +390,7 @@ WriteLiteral("\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 39 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
@@ -410,27 +410,27 @@ WriteLiteral("                <a");
 
 WriteLiteral(" class=\"sf-Gallery-next--simple\"");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 2455), Tuple.Create("\"", 2499)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 2415), Tuple.Create("\"", 2459)
             
             #line 41 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 2468), Tuple.Create<System.Object, System.Int32>(Html.Resource("GoToNextVideo")
+, Tuple.Create(Tuple.Create("", 2428), Tuple.Create<System.Object, System.Int32>(Html.Resource("GoToNextVideo")
             
             #line default
             #line hidden
-, 2468), false)
+, 2428), false)
 );
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2500), Tuple.Create("\"", 2641)
+WriteAttribute("href", Tuple.Create(" href=\"", 2460), Tuple.Create("\"", 2601)
             
             #line 41 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
-                      , Tuple.Create(Tuple.Create("", 2507), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.NextItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, nextItemIndex)
+                      , Tuple.Create(Tuple.Create("", 2467), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.NextItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, nextItemIndex)
             
             #line default
             #line hidden
-, 2507), false)
+, 2467), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("                    ");
 
@@ -441,7 +441,7 @@ WriteLiteral("                    ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                </a>\r\n");
+WriteLiteral("\n                </a>\n");
 
             
             #line 44 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"
@@ -450,7 +450,7 @@ WriteLiteral("\r\n                </a>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("        </nav>\r\n");
+WriteLiteral("        </nav>\n");
 
             
             #line 46 "..\..MVC\Views\VideoGallery\Detail.Default.cshtml"

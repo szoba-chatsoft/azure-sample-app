@@ -48,61 +48,61 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.Profile
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 210), Tuple.Create("\"", 233)
+WriteAttribute("class", Tuple.Create(" class=\"", 205), Tuple.Create("\"", 228)
             
             #line 6 "..\..MVC\Views\Profile\Read.ProfilePreview.cshtml"
-, Tuple.Create(Tuple.Create("", 218), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 213), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 218), false)
+, 213), false)
 );
 
-WriteLiteral(">\r\n    <div");
+WriteLiteral(">\n    <div");
 
 WriteLiteral(" class=\"media sf-profile\"");
 
-WriteLiteral(">\r\n        <div");
+WriteLiteral(">\n        <div");
 
 WriteLiteral(" class=\"media-left sf-profile-aside\"");
 
-WriteLiteral(">\r\n          <div");
+WriteLiteral(">\n          <div");
 
 WriteLiteral(" class=\"media-object\"");
 
-WriteLiteral(">\r\n              <img");
+WriteLiteral(">\n              <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 380), Tuple.Create("\"", 407)
+WriteAttribute("src", Tuple.Create(" src=\"", 371), Tuple.Create("\"", 398)
             
             #line 10 "..\..MVC\Views\Profile\Read.ProfilePreview.cshtml"
-, Tuple.Create(Tuple.Create("", 386), Tuple.Create<System.Object, System.Int32>(Model.AvatarImageUrl
+, Tuple.Create(Tuple.Create("", 377), Tuple.Create<System.Object, System.Int32>(Model.AvatarImageUrl
             
             #line default
             #line hidden
-, 386), false)
+, 377), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 408), Tuple.Create("\"", 429)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 399), Tuple.Create("\"", 420)
             
             #line 10 "..\..MVC\Views\Profile\Read.ProfilePreview.cshtml"
-, Tuple.Create(Tuple.Create("", 414), Tuple.Create<System.Object, System.Int32>(Model.UserName
+, Tuple.Create(Tuple.Create("", 405), Tuple.Create<System.Object, System.Int32>(Model.UserName
             
             #line default
             #line hidden
-, 414), false)
+, 405), false)
 );
 
 WriteLiteral("  width=\"100\"");
 
 WriteLiteral(" height=\"100\"");
 
-WriteLiteral("/>\r\n          </div>\r\n        </div>\r\n\r\n        <div");
+WriteLiteral("/>\n          </div>\n        </div>\n\n        <div");
 
 WriteLiteral(" class=\"media-body\"");
 
-WriteLiteral(">\r\n           <h3");
+WriteLiteral(">\n           <h3");
 
 WriteLiteral(" class=\"mt-0\"");
 
@@ -124,7 +124,7 @@ WriteLiteral(" <small>(");
             
             #line default
             #line hidden
-WriteLiteral(")</small></h3>\r\n           <p>");
+WriteLiteral(")</small></h3>\n           <p>");
 
             
             #line 16 "..\..MVC\Views\Profile\Read.ProfilePreview.cshtml"
@@ -133,7 +133,7 @@ WriteLiteral(")</small></h3>\r\n           <p>");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n           <p>");
+WriteLiteral("</p>\n           <p>");
 
             
             #line 17 "..\..MVC\Views\Profile\Read.ProfilePreview.cshtml"
@@ -142,7 +142,7 @@ WriteLiteral("</p>\r\n           <p>");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n\r\n");
+WriteLiteral("</p>\n\n");
 
             
             #line 19 "..\..MVC\Views\Profile\Read.ProfilePreview.cshtml"
@@ -173,7 +173,7 @@ WriteLiteral("</p>\r\n\r\n");
             
             #line default
             #line hidden
-WriteLiteral("        </div>\r\n    </div>\r\n</div>");
+WriteLiteral("        </div>\n    </div>\n</div>");
 
         }
     }

@@ -117,7 +117,7 @@ WriteLiteralTo(__razor_helper_writer, "    <div");
 
 WriteLiteralTo(__razor_helper_writer, " class=\"form-group\"");
 
-WriteLiteralTo(__razor_helper_writer, ">\r\n\r\n");
+WriteLiteralTo(__razor_helper_writer, ">\n\n");
 
 WriteLiteralTo(__razor_helper_writer, "        ");
 
@@ -128,7 +128,7 @@ WriteTo(__razor_helper_writer, Html.LabelFor(expression, Html.Resource(label)));
 
 #line default
 #line hidden
-WriteLiteralTo(__razor_helper_writer, "\r\n\r\n");
+WriteLiteralTo(__razor_helper_writer, "\n\n");
 
 
 #line 161 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -198,7 +198,7 @@ WriteTo(__razor_helper_writer, Html.PasswordFor(expression, attributes));
 
 #line default
 #line hidden
-WriteLiteralTo(__razor_helper_writer, "\r\n");
+WriteLiteralTo(__razor_helper_writer, "\n");
 
 
 #line 179 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -216,14 +216,14 @@ WriteLiteralTo(__razor_helper_writer, "\r\n");
 #line hidden
 WriteLiteralTo(__razor_helper_writer, "            <div");
 
-WriteAttributeTo(__razor_helper_writer, "id", Tuple.Create(" id=\'", 7089), Tuple.Create("\'", 7116)
+WriteAttributeTo(__razor_helper_writer, "id", Tuple.Create(" id=\'", 6909), Tuple.Create("\'", 6936)
 
 #line 181 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
-, Tuple.Create(Tuple.Create("", 7094), Tuple.Create<System.Object, System.Int32>(Html.UniqueId(descId)
+, Tuple.Create(Tuple.Create("", 6914), Tuple.Create<System.Object, System.Int32>(Html.UniqueId(descId)
 
 #line default
 #line hidden
-, 7094), false)
+, 6914), false)
 );
 
 WriteLiteralTo(__razor_helper_writer, " class=\"text-danger\"");
@@ -232,7 +232,7 @@ WriteLiteralTo(__razor_helper_writer, " role=\"alert\"");
 
 WriteLiteralTo(__razor_helper_writer, " aria-live=\"assertive\"");
 
-WriteLiteralTo(__razor_helper_writer, ">\r\n                <span");
+WriteLiteralTo(__razor_helper_writer, ">\n                <span");
 
 WriteLiteralTo(__razor_helper_writer, " class=\"form-text\"");
 
@@ -245,7 +245,7 @@ WriteLiteralTo(__razor_helper_writer, ">");
 
 #line default
 #line hidden
-WriteLiteralTo(__razor_helper_writer, "</span>\r\n            </div>\r\n");
+WriteLiteralTo(__razor_helper_writer, "</span>\n            </div>\n");
 
 
 #line 184 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -254,7 +254,7 @@ WriteLiteralTo(__razor_helper_writer, "</span>\r\n            </div>\r\n");
 
 #line default
 #line hidden
-WriteLiteralTo(__razor_helper_writer, "    </div>\r\n");
+WriteLiteralTo(__razor_helper_writer, "    </div>\n");
 
 
 #line 186 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -274,9 +274,9 @@ WriteLiteralTo(__razor_helper_writer, "    </div>\r\n");
         }
         public override void Execute()
         {
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 13 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -285,7 +285,7 @@ Write(Html.Script(ScriptRef.JQuery, "top", true));
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 14 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -294,7 +294,7 @@ Write(Html.Script("//ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.valida
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 15 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -303,7 +303,7 @@ Write(Html.Script("//ajax.aspnetcdn.com/ajax/mvc/4.0/jquery.validate.unobtrusive
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
             
             #line 17 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -325,19 +325,19 @@ WriteLiteral("\r\n\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n<div");
+WriteLiteral("\n\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 1153), Tuple.Create("\"", 1176)
+WriteAttribute("class", Tuple.Create(" class=\"", 1121), Tuple.Create("\"", 1144)
             
             #line 33 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
-, Tuple.Create(Tuple.Create("", 1161), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 1129), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 1161), false)
+, 1129), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 34 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -360,7 +360,7 @@ WriteLiteral(" role=\"alert\"");
 
 WriteLiteral(" aria-live=\"assertive\"");
 
-WriteLiteral(">\r\n            <h3>");
+WriteLiteral(">\n            <h3>");
 
             
             #line 38 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -369,7 +369,7 @@ WriteLiteral(">\r\n            <h3>");
             
             #line default
             #line hidden
-WriteLiteral("</h3>\r\n            <p>");
+WriteLiteral("</h3>\n            <p>");
 
             
             #line 39 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -378,7 +378,7 @@ WriteLiteral("</h3>\r\n            <p>");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n        </div>\r\n");
+WriteLiteral("</p>\n        </div>\n");
 
             
             #line 41 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -395,7 +395,7 @@ WriteLiteral(" data-sf-role=\"sendAgainLink\"");
 
 WriteLiteral(" class=\"btn btn-primary\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("            ");
 
@@ -406,7 +406,7 @@ WriteLiteral("            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n            <span");
+WriteLiteral("\n            <span");
 
 WriteLiteral(" class=\"sr-only\"");
 
@@ -419,7 +419,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</span>\r\n        </a>\r\n");
+WriteLiteral("</span>\n        </a>\n");
 
             
             #line 46 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -434,7 +434,7 @@ WriteLiteral(" data-sf-role=\"confirmationResendInfo\"");
 
 WriteLiteral(" style=\"display:none;\"");
 
-WriteLiteral(">\r\n            <p");
+WriteLiteral(">\n            <p");
 
 WriteLiteral(" role=\"alert\"");
 
@@ -449,7 +449,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n            <a");
+WriteLiteral("</p>\n            <a");
 
 WriteLiteral(" href=\"javascript:void(0)\"");
 
@@ -457,7 +457,7 @@ WriteLiteral(" data-sf-role=\"sendAgainLink\"");
 
 WriteLiteral(" class=\"btn btn-primary\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("                ");
 
@@ -468,7 +468,7 @@ WriteLiteral("                ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                <span");
+WriteLiteral("\n                <span");
 
 WriteLiteral(" class=\"sr-only\"");
 
@@ -481,7 +481,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</span>\r\n            </a>\r\n        </div>\r\n");
+WriteLiteral("</span>\n            </a>\n        </div>\n");
 
             
             #line 54 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -496,17 +496,17 @@ WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"sf-resend-confirmation-endpoint-url\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 2321), Tuple.Create("\"", 2395)
+WriteAttribute("value", Tuple.Create(" value=\"", 2267), Tuple.Create("\"", 2341)
             
             #line 55 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
-       , Tuple.Create(Tuple.Create("", 2329), Tuple.Create<System.Object, System.Int32>(Url.Action("ResendConfirmationEmail", new { email = Model.Email})
+       , Tuple.Create(Tuple.Create("", 2275), Tuple.Create<System.Object, System.Int32>(Url.Action("ResendConfirmationEmail", new { email = Model.Email})
             
             #line default
             #line hidden
-, 2329), false)
+, 2275), false)
 );
 
-WriteLiteral(" />\r\n");
+WriteLiteral(" />\n");
 
             
             #line 56 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -524,7 +524,7 @@ WriteLiteral(" role=\"alert\"");
 
 WriteLiteral(" aria-live=\"assertive\"");
 
-WriteLiteral(">\r\n            <h3>");
+WriteLiteral(">\n            <h3>");
 
             
             #line 61 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -533,7 +533,7 @@ WriteLiteral(">\r\n            <h3>");
             
             #line default
             #line hidden
-WriteLiteral("</h3>\r\n            <p>");
+WriteLiteral("</h3>\n            <p>");
 
             
             #line 62 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -542,7 +542,7 @@ WriteLiteral("</h3>\r\n            <p>");
             
             #line default
             #line hidden
-WriteLiteral("</p>            \r\n        </div>\r\n");
+WriteLiteral("</p>            \n        </div>\n");
 
             
             #line 64 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -572,30 +572,30 @@ WriteLiteral("</p>            \r\n        </div>\r\n");
             #line hidden
 WriteLiteral("            <div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 2963), Tuple.Create("\"", 2984)
+WriteAttribute("class", Tuple.Create(" class=\"", 2893), Tuple.Create("\"", 2914)
             
             #line 71 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
-, Tuple.Create(Tuple.Create("", 2971), Tuple.Create<System.Object, System.Int32>(rowClass
+, Tuple.Create(Tuple.Create("", 2901), Tuple.Create<System.Object, System.Int32>(rowClass
             
             #line default
             #line hidden
-, 2971), false)
-, Tuple.Create(Tuple.Create(" ", 2980), Tuple.Create("m-0", 2981), true)
+, 2901), false)
+, Tuple.Create(Tuple.Create(" ", 2910), Tuple.Create("m-0", 2911), true)
 );
 
-WriteLiteral(">\r\n                <div");
+WriteLiteral(">\n                <div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 3008), Tuple.Create("\"", 3025)
+WriteAttribute("class", Tuple.Create(" class=\"", 2937), Tuple.Create("\"", 2954)
             
             #line 72 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
-, Tuple.Create(Tuple.Create("", 3016), Tuple.Create<System.Object, System.Int32>(colClass
+, Tuple.Create(Tuple.Create("", 2945), Tuple.Create<System.Object, System.Int32>(colClass
             
             #line default
             #line hidden
-, 3016), false)
+, 2945), false)
 );
 
-WriteLiteral(">\r\n                <h3");
+WriteLiteral(">\n                <h3");
 
 WriteLiteral(" class=\"mb-4\"");
 
@@ -608,7 +608,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</h3>\r\n\r\n");
+WriteLiteral("</h3>\n\n");
 
             
             #line 75 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -641,7 +641,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</div>\r\n");
+WriteLiteral("</div>\n");
 
             
             #line 78 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -650,7 +650,7 @@ WriteLiteral("</div>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
 WriteLiteral("                ");
 
@@ -661,7 +661,7 @@ WriteLiteral("                ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                \r\n");
+WriteLiteral("\n                \n");
 
 WriteLiteral("                ");
 
@@ -672,7 +672,7 @@ WriteLiteral("                ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
 WriteLiteral("                ");
 
@@ -683,7 +683,7 @@ WriteLiteral("                ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
 WriteLiteral("                ");
 
@@ -694,7 +694,7 @@ WriteLiteral("                ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
 WriteLiteral("                ");
 
@@ -705,7 +705,7 @@ WriteLiteral("                ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
 WriteLiteral("                ");
 
@@ -716,7 +716,7 @@ WriteLiteral("                ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
             
             #line 92 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -762,7 +762,7 @@ WriteLiteral("\r\n\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 99 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -793,7 +793,7 @@ WriteLiteral(" disabled >");
             
             #line default
             #line hidden
-WriteLiteral("</button>\r\n");
+WriteLiteral("</button>\n");
 
             
             #line 102 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -828,7 +828,7 @@ WriteLiteral(" >");
             
             #line default
             #line hidden
-WriteLiteral("</button>\r\n");
+WriteLiteral("</button>\n");
 
             
             #line 106 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -837,20 +837,20 @@ WriteLiteral("</button>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                <div");
+WriteLiteral("\n                <div");
 
 WriteLiteral(" class=\"mt-3\"");
 
-WriteLiteral(">\r\n                    <div>Already registered?</div>\r\n                    <a");
+WriteLiteral(">\n                    <div>Already registered?</div>\n                    <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 4789), Tuple.Create("\"", 4815)
+WriteAttribute("href", Tuple.Create(" href=\"", 4680), Tuple.Create("\"", 4706)
             
             #line 110 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
-, Tuple.Create(Tuple.Create("", 4796), Tuple.Create<System.Object, System.Int32>(Model.LoginPageUrl
+, Tuple.Create(Tuple.Create("", 4687), Tuple.Create<System.Object, System.Int32>(Model.LoginPageUrl
             
             #line default
             #line hidden
-, 4796), false)
+, 4687), false)
 );
 
 WriteLiteral(">");
@@ -862,7 +862,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n                </div>\r\n            </div>\r\n\r\n");
+WriteLiteral("</a>\n                </div>\n            </div>\n\n");
 
             
             #line 114 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -882,7 +882,7 @@ WriteLiteral("            <div");
 
 WriteLiteral(" class=\"col-lg-6\"");
 
-WriteLiteral(">    \r\n                <h3");
+WriteLiteral(">    \n                <h3");
 
 WriteLiteral(" class=\"mb-3\"");
 
@@ -895,7 +895,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</h3>\r\n\r\n");
+WriteLiteral("</h3>\n\n");
 
             
             #line 119 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -916,7 +916,7 @@ WriteLiteral("<div");
 
 WriteLiteral(" class=\"mb-1\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("                        ");
 
@@ -927,7 +927,7 @@ WriteLiteral("                        ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                    </div>\r\n");
+WriteLiteral("\n                    </div>\n");
 
             
             #line 125 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -936,7 +936,7 @@ WriteLiteral("\r\n                    </div>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("            </div>\r\n");
+WriteLiteral("            </div>\n");
 
             
             #line 127 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -945,7 +945,7 @@ WriteLiteral("            </div>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("        </div>\r\n");
+WriteLiteral("        </div>\n");
 
             
             #line 129 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -955,7 +955,7 @@ WriteLiteral("        </div>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("</div>\r\n\r\n");
+WriteLiteral("</div>\n\n");
 
             
             #line 133 "..\..MVC\Views\Registration\Registration.RegistrationForm.cshtml"
@@ -964,7 +964,7 @@ Write(Html.Script(Url.WidgetContent("Mvc/Scripts/Registration/registration-form.
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
         }
     }

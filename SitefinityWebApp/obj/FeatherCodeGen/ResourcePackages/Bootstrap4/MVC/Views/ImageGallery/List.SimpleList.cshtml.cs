@@ -66,30 +66,30 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.ImageGallery
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<ul");
+WriteLiteral("\n<ul");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 316), Tuple.Create("\"", 353)
-, Tuple.Create(Tuple.Create("", 324), Tuple.Create("list-unstyled", 324), true)
+WriteAttribute("class", Tuple.Create(" class=\"", 308), Tuple.Create("\"", 345)
+, Tuple.Create(Tuple.Create("", 316), Tuple.Create("list-unstyled", 316), true)
             
             #line 9 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create(" ", 337), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create(" ", 329), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 338), false)
+, 330), false)
 );
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 354), Tuple.Create("\"", 397)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 346), Tuple.Create("\"", 389)
             
             #line 9 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create("", 367), Tuple.Create<System.Object, System.Int32>(Html.Resource("ImageGallery")
+, Tuple.Create(Tuple.Create("", 359), Tuple.Create<System.Object, System.Int32>(Html.Resource("ImageGallery")
             
             #line default
             #line hidden
-, 367), false)
+, 359), false)
 );
 
-WriteLiteral(">\r\n\r\n");
+WriteLiteral(">\n\n");
 
             
             #line 11 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
@@ -112,36 +112,36 @@ WriteLiteral(" class=\"d-inline-block\"");
 
 WriteLiteral(">\r\n            <figure");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 566), Tuple.Create("\"", 673)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 556), Tuple.Create("\"", 663)
             
             #line 15 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create("", 579), Tuple.Create<System.Object, System.Int32>(string.IsNullOrEmpty(item.Fields.Description) ? item.Fields.Title : item.Fields.Description
+, Tuple.Create(Tuple.Create("", 569), Tuple.Create<System.Object, System.Int32>(string.IsNullOrEmpty(item.Fields.Description) ? item.Fields.Title : item.Fields.Description
             
             #line default
             #line hidden
-, 579), false)
+, 569), false)
 );
 
 WriteLiteral(">\r\n                <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 697), Tuple.Create("\"", 737)
+WriteAttribute("src", Tuple.Create(" src=\"", 687), Tuple.Create("\"", 727)
             
             #line 16 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create("", 703), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.ThumbnailUrl
+, Tuple.Create(Tuple.Create("", 693), Tuple.Create<System.Object, System.Int32>(thumbnailViewModel.ThumbnailUrl
             
             #line default
             #line hidden
-, 703), false)
+, 693), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\'", 738), Tuple.Create("\'", 836)
+WriteAttribute("alt", Tuple.Create(" alt=\'", 728), Tuple.Create("\'", 826)
             
             #line 16 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"
-, Tuple.Create(Tuple.Create("", 744), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(item.Fields.AlternativeText, @"[^\w\d_-]", "")
+, Tuple.Create(Tuple.Create("", 734), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(item.Fields.AlternativeText, @"[^\w\d_-]", "")
             
             #line default
             #line hidden
-, 744), false)
+, 734), false)
 );
 
 WriteLiteral("\r\n                     ");
@@ -173,7 +173,7 @@ WriteLiteral(" />\r\n            </figure>\r\n        </li>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("</ul>\r\n\r\n");
+WriteLiteral("</ul>\n\n");
 
             
             #line 24 "..\..MVC\Views\ImageGallery\List.SimpleList.cshtml"

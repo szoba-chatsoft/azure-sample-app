@@ -517,4 +517,3 @@ C:\Users\szowa\Projects\azure-sample-app\SitefinityWebApp\bin\zh-Hant\System.Spa
 C:\Users\szowa\Projects\azure-sample-app\SitefinityWebApp\obj\Debug\SitefinityWebApp.csproj.CopyComplete
 C:\Users\szowa\Projects\azure-sample-app\SitefinityWebApp\obj\Debug\SitefinityWebApp.dll
 C:\Users\szowa\Projects\azure-sample-app\SitefinityWebApp\obj\Debug\SitefinityWebApp.pdb
-C:\Users\szowa\Projects\azure-sample-app\SitefinityWebApp\obj\Debug\SitefinityWebApp.csprojAssemblyReference.cache

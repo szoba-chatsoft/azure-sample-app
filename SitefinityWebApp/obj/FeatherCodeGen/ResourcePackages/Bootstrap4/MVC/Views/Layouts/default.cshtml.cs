@@ -65,7 +65,7 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.Layouts
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<!DOCTYPE html>\r\n<html ");
+WriteLiteral("\n<!DOCTYPE html>\n<html ");
 
             
             #line 8 "..\..MVC\Views\Layouts\default.cshtml"
@@ -74,11 +74,11 @@ WriteLiteral("\r\n<!DOCTYPE html>\r\n<html ");
             
             #line default
             #line hidden
-WriteLiteral(">\r\n<head>\r\n    <meta");
+WriteLiteral(">\n<head>\n    <meta");
 
 WriteLiteral(" charset=\"utf-8\"");
 
-WriteLiteral(" />\r\n    <title></title>\r\n\r\n");
+WriteLiteral(" />\n    <title></title>\n\n");
 
 WriteLiteral("    ");
 
@@ -89,7 +89,7 @@ Write(Html.Section("head"));
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
 WriteLiteral("    ");
 
@@ -100,7 +100,7 @@ Write(Html.StyleSheet(Url.WidgetContent("~/ResourcePackages/Bootstrap4/assets/di
             
             #line default
             #line hidden
-WriteLiteral("\r\n</head>\r\n\r\n<body>\r\n");
+WriteLiteral("\n</head>\n\n<body>\n");
 
 WriteLiteral("    ");
 
@@ -111,7 +111,7 @@ Write(Html.Section("top"));
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n    <div>\r\n");
+WriteLiteral("\n\n    <div>\n");
 
 WriteLiteral("        ");
 
@@ -122,9 +122,9 @@ WriteLiteral("        ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n    </div>\r\n\r\n    ");
+WriteLiteral("\n    </div>\n\n    ");
 
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
 WriteLiteral("    ");
 
@@ -135,7 +135,7 @@ Write(Html.Section("inline-editing"));
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 26 "..\..MVC\Views\Layouts\default.cshtml"
@@ -274,7 +274,7 @@ Write(Html.Section("bottom"));
             
             #line default
             #line hidden
-WriteLiteral("\r\n</body>\r\n</html>\r\n");
+WriteLiteral("\n</body>\n</html>\n");
 
         }
     }

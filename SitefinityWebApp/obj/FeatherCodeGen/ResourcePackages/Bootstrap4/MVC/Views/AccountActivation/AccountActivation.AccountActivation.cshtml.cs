@@ -42,19 +42,19 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.AccountActivati
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 157), Tuple.Create("\"", 180)
+WriteAttribute("class", Tuple.Create(" class=\"", 153), Tuple.Create("\"", 176)
             
             #line 5 "..\..MVC\Views\AccountActivation\AccountActivation.AccountActivation.cshtml"
-, Tuple.Create(Tuple.Create("", 165), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 161), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 165), false)
+, 161), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 6 "..\..MVC\Views\AccountActivation\AccountActivation.AccountActivation.cshtml"
@@ -85,7 +85,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</h3>\r\n");
+WriteLiteral("</h3>\n");
 
             
             #line 9 "..\..MVC\Views\AccountActivation\AccountActivation.AccountActivation.cshtml"
@@ -96,14 +96,14 @@ WriteLiteral("</h3>\r\n");
             #line hidden
 WriteLiteral("        <a");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 326), Tuple.Create("\"", 354)
+WriteAttribute("href", Tuple.Create(" href=\"", 317), Tuple.Create("\"", 345)
             
             #line 10 "..\..MVC\Views\AccountActivation\AccountActivation.AccountActivation.cshtml"
-, Tuple.Create(Tuple.Create("", 333), Tuple.Create<System.Object, System.Int32>(Model.ProfilePageUrl
+, Tuple.Create(Tuple.Create("", 324), Tuple.Create<System.Object, System.Int32>(Model.ProfilePageUrl
             
             #line default
             #line hidden
-, 333), false)
+, 324), false)
 );
 
 WriteLiteral(">");
@@ -115,7 +115,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</a>\r\n");
+WriteLiteral("</a>\n");
 
             
             #line 11 "..\..MVC\Views\AccountActivation\AccountActivation.AccountActivation.cshtml"
@@ -141,7 +141,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</h3>\r\n");
+WriteLiteral("</h3>\n");
 
             
             #line 15 "..\..MVC\Views\AccountActivation\AccountActivation.AccountActivation.cshtml"

@@ -66,7 +66,7 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.UsersList
         }
         public override void Execute()
         {
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 9 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"
@@ -82,21 +82,21 @@ WriteLiteral("\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n<div");
+WriteLiteral("\n\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 510), Tuple.Create("\"", 548)
+WriteAttribute("class", Tuple.Create(" class=\"", 492), Tuple.Create("\"", 530)
             
             #line 19 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 518), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 500), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 518), false)
-, Tuple.Create(Tuple.Create(" ", 533), Tuple.Create("media", 534), true)
-, Tuple.Create(Tuple.Create(" ", 539), Tuple.Create("sf-media", 540), true)
+, 500), false)
+, Tuple.Create(Tuple.Create(" ", 515), Tuple.Create("media", 516), true)
+, Tuple.Create(Tuple.Create(" ", 521), Tuple.Create("sf-media", 522), true)
 );
 
-WriteLiteral(">\r\n\r\n");
+WriteLiteral(">\n\n");
 
             
             #line 21 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"
@@ -117,33 +117,33 @@ WriteLiteral("        <div");
 
 WriteLiteral(" class=\"media-left pr-2 sf-img-thmb\"");
 
-WriteLiteral(">\r\n            <img");
+WriteLiteral(">\n            <img");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 657), Tuple.Create("\"", 725)
+WriteAttribute("src", Tuple.Create(" src=\"", 633), Tuple.Create("\"", 701)
             
             #line 25 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"
-, Tuple.Create(Tuple.Create("", 663), Tuple.Create<System.Object, System.Int32>(((SitefinityProfileItemViewModel)Model.Item).AvatarImageUrl
+, Tuple.Create(Tuple.Create("", 639), Tuple.Create<System.Object, System.Int32>(((SitefinityProfileItemViewModel)Model.Item).AvatarImageUrl
             
             #line default
             #line hidden
-, 663), false)
+, 639), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 726), Tuple.Create("\"", 760)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 702), Tuple.Create("\"", 736)
             
             #line 25 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"
-            , Tuple.Create(Tuple.Create("", 732), Tuple.Create<System.Object, System.Int32>(Model.Item.Fields.FirstName
+            , Tuple.Create(Tuple.Create("", 708), Tuple.Create<System.Object, System.Int32>(Model.Item.Fields.FirstName
             
             #line default
             #line hidden
-, 732), false)
+, 708), false)
 );
 
 WriteLiteral(" width=\"100\"");
 
 WriteLiteral(" height=\"100\"");
 
-WriteLiteral(" />\r\n        </div>\r\n");
+WriteLiteral(" />\n        </div>\n");
 
             
             #line 27 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"
@@ -156,7 +156,7 @@ WriteLiteral("        <div");
 
 WriteLiteral(" class=\"media-body sf-media-body\"");
 
-WriteLiteral(">\r\n            <h3>");
+WriteLiteral(">\n            <h3>");
 
             
             #line 29 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"
@@ -165,7 +165,7 @@ WriteLiteral(">\r\n            <h3>");
             
             #line default
             #line hidden
-WriteLiteral("</h3>\r\n            <p>");
+WriteLiteral("</h3>\n            <p>");
 
             
             #line 30 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"
@@ -174,7 +174,7 @@ WriteLiteral("</h3>\r\n            <p>");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n            <p>");
+WriteLiteral("</p>\n            <p>");
 
             
             #line 31 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"
@@ -183,7 +183,7 @@ WriteLiteral("</p>\r\n            <p>");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n        </div>\r\n");
+WriteLiteral("</p>\n        </div>\n");
 
             
             #line 33 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"
@@ -203,7 +203,7 @@ WriteLiteral("        <p>");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n");
+WriteLiteral("</p>\n");
 
             
             #line 37 "..\..MVC\Views\UsersList\Detail.UserDetails.cshtml"

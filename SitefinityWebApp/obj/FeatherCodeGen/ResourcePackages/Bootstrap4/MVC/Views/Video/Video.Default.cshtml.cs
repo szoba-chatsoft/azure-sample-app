@@ -48,7 +48,7 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.Video
         }
         public override void Execute()
         {
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 6 "..\..MVC\Views\Video\Video.Default.cshtml"
@@ -57,7 +57,7 @@ Write(Html.Script(ScriptRef.JQuery, "head", false));
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
             
             #line 8 "..\..MVC\Views\Video\Video.Default.cshtml"
@@ -69,29 +69,29 @@ WriteLiteral("\r\n\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n<figure");
+WriteLiteral("\n\n<figure");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 539), Tuple.Create("\"", 562)
+WriteAttribute("class", Tuple.Create(" class=\"", 526), Tuple.Create("\"", 549)
             
             #line 14 "..\..MVC\Views\Video\Video.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 547), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 534), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 547), false)
+, 534), false)
 );
 
-WriteAttribute("aria-labelledby", Tuple.Create(" aria-labelledby=\"", 563), Tuple.Create("\"", 609)
+WriteAttribute("aria-labelledby", Tuple.Create(" aria-labelledby=\"", 550), Tuple.Create("\"", 596)
             
             #line 14 "..\..MVC\Views\Video\Video.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 581), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoTitle")
+, Tuple.Create(Tuple.Create("", 568), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoTitle")
             
             #line default
             #line hidden
-, 581), false)
+, 568), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 15 "..\..MVC\Views\Video\Video.Default.cshtml"
@@ -109,14 +109,14 @@ WriteLiteral(">\r\n");
             #line hidden
 WriteLiteral("        <video");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 677), Tuple.Create("\"", 692)
+WriteAttribute("src", Tuple.Create(" src=\"", 661), Tuple.Create("\"", 676)
             
             #line 17 "..\..MVC\Views\Video\Video.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 683), Tuple.Create<System.Object, System.Int32>(videoUrl
+, Tuple.Create(Tuple.Create("", 667), Tuple.Create<System.Object, System.Int32>(videoUrl
             
             #line default
             #line hidden
-, 683), false)
+, 667), false)
 );
 
 WriteLiteral(" ");
@@ -164,7 +164,7 @@ WriteLiteral("\' aria-describedby=\'");
             
             #line default
             #line hidden
-WriteLiteral("\'></video>\r\n");
+WriteLiteral("\'></video>\n");
 
             
             #line 18 "..\..MVC\Views\Video\Video.Default.cshtml"
@@ -175,14 +175,14 @@ WriteLiteral("\'></video>\r\n");
             #line hidden
 WriteLiteral("        <figcaption");
 
-WriteAttribute("id", Tuple.Create(" id=\'", 955), Tuple.Create("\'", 988)
+WriteAttribute("id", Tuple.Create(" id=\'", 937), Tuple.Create("\'", 970)
             
             #line 19 "..\..MVC\Views\Video\Video.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 960), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoTitle")
+, Tuple.Create(Tuple.Create("", 942), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoTitle")
             
             #line default
             #line hidden
-, 960), false)
+, 942), false)
 );
 
 WriteLiteral(">");
@@ -194,18 +194,18 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</figcaption>\r\n");
+WriteLiteral("</figcaption>\n");
 
 WriteLiteral("        <p");
 
-WriteAttribute("id", Tuple.Create(" id=\'", 1039), Tuple.Create("\'", 1071)
+WriteAttribute("id", Tuple.Create(" id=\'", 1020), Tuple.Create("\'", 1052)
             
             #line 20 "..\..MVC\Views\Video\Video.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 1044), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoInfo")
+, Tuple.Create(Tuple.Create("", 1025), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("VideoInfo")
             
             #line default
             #line hidden
-, 1044), false)
+, 1025), false)
 );
 
 WriteLiteral(">");
@@ -217,7 +217,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n");
+WriteLiteral("</p>\n");
 
             
             #line 21 "..\..MVC\Views\Video\Video.Default.cshtml"
@@ -226,7 +226,7 @@ WriteLiteral("</p>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("</figure>\r\n\r\n");
+WriteLiteral("</figure>\n\n");
 
             
             #line 24 "..\..MVC\Views\Video\Video.Default.cshtml"

@@ -48,7 +48,7 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.Comments
         }
         public override void Execute()
         {
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 6 "..\..MVC\Views\Comments\CommentsCount.Default.cshtml"
@@ -57,7 +57,7 @@ Write(Html.Script(ScriptRef.JQuery, "top", true));
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n<div");
+WriteLiteral("\n\n<div");
 
 WriteLiteral(" data-sf-role=\"comments-count-wrapper\"");
 
@@ -74,92 +74,92 @@ WriteLiteral("\"");
 
 WriteLiteral(" class=\"sf-Comment-count\"");
 
-WriteLiteral(">\r\n    <a");
+WriteLiteral(">\n    <a");
 
 WriteLiteral(" data-sf-role=\"comments-count-anchor\"");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 372), Tuple.Create("\"", 397)
+WriteAttribute("href", Tuple.Create(" href=\"", 364), Tuple.Create("\"", 389)
             
             #line 9 "..\..MVC\Views\Comments\CommentsCount.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 379), Tuple.Create<System.Object, System.Int32>(Model.NavigateUrl
+, Tuple.Create(Tuple.Create("", 371), Tuple.Create<System.Object, System.Int32>(Model.NavigateUrl
             
             #line default
             #line hidden
-, 379), false)
+, 371), false)
 );
 
-WriteLiteral(">\r\n        <svg");
+WriteLiteral(">\n        <svg");
 
 WriteLiteral(" class=\"sf-icon-comment sf-icon-xs\"");
 
 WriteLiteral(" aria-hidden=\"true\"");
 
-WriteLiteral(">\r\n            <use");
+WriteLiteral(">\n            <use");
 
-WriteAttribute("xlink:href", Tuple.Create(" xlink:href=\"", 486), Tuple.Create("\"", 570)
-, Tuple.Create(Tuple.Create("", 499), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/Bootstrap4/assets/dist/sprites/solid.svg#comment-alt")
-, 499), false)
+WriteAttribute("xlink:href", Tuple.Create(" xlink:href=\"", 476), Tuple.Create("\"", 560)
+, Tuple.Create(Tuple.Create("", 489), Tuple.Create<System.Object, System.Int32>(Href("~/ResourcePackages/Bootstrap4/assets/dist/sprites/solid.svg#comment-alt")
+, 489), false)
 );
 
-WriteLiteral("></use>\r\n        </svg>\r\n        <span");
+WriteLiteral("></use>\n        </svg>\n        <span");
 
 WriteLiteral(" data-sf-role=\"comments-count-anchor-text\"");
 
-WriteLiteral("></span>\r\n    </a>\r\n\r\n    <input");
+WriteLiteral("></span>\n    </a>\n\n    <input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"service-url\"");
 
-WriteAttribute("value", Tuple.Create(" value=\"", 724), Tuple.Create("\"", 751)
+WriteAttribute("value", Tuple.Create(" value=\"", 709), Tuple.Create("\"", 736)
             
             #line 16 "..\..MVC\Views\Comments\CommentsCount.Default.cshtml"
-, Tuple.Create(Tuple.Create("", 732), Tuple.Create<System.Object, System.Int32>(ViewBag.ServiceUrl
+, Tuple.Create(Tuple.Create("", 717), Tuple.Create<System.Object, System.Int32>(ViewBag.ServiceUrl
             
             #line default
             #line hidden
-, 732), false)
+, 717), false)
 );
 
-WriteLiteral(" />\r\n    <input");
+WriteLiteral(" />\n    <input");
 
 WriteLiteral(" type=\"hidden\"");
 
 WriteLiteral(" data-sf-role=\"comments-count-resources\"");
 
-WriteAttribute("value", Tuple.Create(" value=\'", 821), Tuple.Create("\'", 972)
-, Tuple.Create(Tuple.Create("", 829), Tuple.Create("{\"commentsPlural\":", 829), true)
-, Tuple.Create(Tuple.Create(" ", 847), Tuple.Create("\"", 848), true)
+WriteAttribute("value", Tuple.Create(" value=\'", 805), Tuple.Create("\'", 956)
+, Tuple.Create(Tuple.Create("", 813), Tuple.Create("{\"commentsPlural\":", 813), true)
+, Tuple.Create(Tuple.Create(" ", 831), Tuple.Create("\"", 832), true)
             
             #line 17 "..\..MVC\Views\Comments\CommentsCount.Default.cshtml"
-             , Tuple.Create(Tuple.Create("", 849), Tuple.Create<System.Object, System.Int32>(Html.Resource("CommentsPlural")
+             , Tuple.Create(Tuple.Create("", 833), Tuple.Create<System.Object, System.Int32>(Html.Resource("CommentsPlural")
             
             #line default
             #line hidden
-, 849), false)
-, Tuple.Create(Tuple.Create("", 881), Tuple.Create("\",", 881), true)
-, Tuple.Create(Tuple.Create(" ", 883), Tuple.Create("\"leaveComment\":\"", 884), true)
+, 833), false)
+, Tuple.Create(Tuple.Create("", 865), Tuple.Create("\",", 865), true)
+, Tuple.Create(Tuple.Create(" ", 867), Tuple.Create("\"leaveComment\":\"", 868), true)
             
             #line 17 "..\..MVC\Views\Comments\CommentsCount.Default.cshtml"
-                                                                , Tuple.Create(Tuple.Create("", 900), Tuple.Create<System.Object, System.Int32>(Html.Resource("LeaveComment")
+                                                                , Tuple.Create(Tuple.Create("", 884), Tuple.Create<System.Object, System.Int32>(Html.Resource("LeaveComment")
             
             #line default
             #line hidden
-, 900), false)
-, Tuple.Create(Tuple.Create("", 930), Tuple.Create("\",", 930), true)
-, Tuple.Create(Tuple.Create(" ", 932), Tuple.Create("\"comment\":\"", 933), true)
+, 884), false)
+, Tuple.Create(Tuple.Create("", 914), Tuple.Create("\",", 914), true)
+, Tuple.Create(Tuple.Create(" ", 916), Tuple.Create("\"comment\":\"", 917), true)
             
             #line 17 "..\..MVC\Views\Comments\CommentsCount.Default.cshtml"
-                                                                                                            , Tuple.Create(Tuple.Create("", 944), Tuple.Create<System.Object, System.Int32>(Html.Resource("Comment")
+                                                                                                            , Tuple.Create(Tuple.Create("", 928), Tuple.Create<System.Object, System.Int32>(Html.Resource("Comment")
             
             #line default
             #line hidden
-, 944), false)
-, Tuple.Create(Tuple.Create("", 969), Tuple.Create("\"", 969), true)
-, Tuple.Create(Tuple.Create(" ", 970), Tuple.Create("}", 971), true)
+, 928), false)
+, Tuple.Create(Tuple.Create("", 953), Tuple.Create("\"", 953), true)
+, Tuple.Create(Tuple.Create(" ", 954), Tuple.Create("}", 955), true)
 );
 
-WriteLiteral(" />\r\n</div>\r\n\r\n");
+WriteLiteral(" />\n</div>\n\n");
 
             
             #line 20 "..\..MVC\Views\Comments\CommentsCount.Default.cshtml"

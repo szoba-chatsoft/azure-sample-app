@@ -1085,6 +1085,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
+    <Compile Include="Mvc\Controllers\ZipCodesController.cs" />
+    <Compile Include="Mvc\Models\ZipCodesModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1100,6 +1102,7 @@
     <Content Include="App_Data\Sitefinity\Logs\Trace.log" />
     <Content Include="App_Data\Sitefinity\Logs\UpgradeTrace.log" />
     <Content Include="App_Data\Sitefinity\Sitefinity.lic" />
+    <Content Include="Mvc\Views\ZipCodes\Index.cshtml" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
@@ -1257,6 +1260,7 @@
     <Content Include="ResourcePackages\Bootstrap4\assets\src\project\sass\main.scss" />
     <Content Include="ResourcePackages\Bootstrap4\assets\src\project\sass\adminapp\editor.scss" />
     <None Include="Properties\PublishProfiles\azuresampleapp - Web Deploy.pubxml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Layouts\Index-backup.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\AWSSDK.CloudSearch.3.3.0.83\analyzers\dotnet\cs\AWSSDK.CloudSearch.CodeAnalysis.dll" />
@@ -1265,6 +1269,7 @@
     <Analyzer Include="..\packages\AWSSDK.S3.3.3.31.24\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
     <Analyzer Include="..\packages\AWSSDK.SQS.3.3.3.62\analyzers\dotnet\cs\AWSSDK.SQS.CodeAnalysis.dll" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

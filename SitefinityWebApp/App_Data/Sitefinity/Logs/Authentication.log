@@ -1,7 +1,7 @@
 ----------------------------------------
-ActivityId: 26fe39c7-d3b1-4a94-94cc-33a364577900
+ActivityId: 75ffda73-cf7e-478c-8b43-87a65230c3e1
 
-Timestamp: 10/2/2019 6:59:17 PM
+Timestamp: 10/8/2019 3:37:45 PM
 
 Message: Identity Server: NoSignInCookie
 
@@ -17,15 +17,15 @@ Title:
 
 Machine: YATHI
 
-App Domain: /LM/W3SVC/2/ROOT-2-132145159011298237
+App Domain: /LM/W3SVC/2/ROOT-1-132150225022735785
 
-ProcessId: 17300
+ProcessId: 22952
 
 Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:24300
+Win32 ThreadId:24484
 
 Extended Properties: 
 ----------------------------------------

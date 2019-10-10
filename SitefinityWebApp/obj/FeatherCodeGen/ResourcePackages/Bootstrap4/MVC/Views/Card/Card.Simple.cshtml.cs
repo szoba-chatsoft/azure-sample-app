@@ -42,23 +42,23 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.Card
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 128), Tuple.Create("\"", 151)
+WriteAttribute("class", Tuple.Create(" class=\"", 124), Tuple.Create("\"", 147)
             
             #line 5 "..\..MVC\Views\Card\Card.Simple.cshtml"
-, Tuple.Create(Tuple.Create("", 136), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 132), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 136), false)
+, 132), false)
 );
 
-WriteLiteral(">\r\n    <div");
+WriteLiteral(">\n    <div");
 
 WriteLiteral(" class=\"row\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 7 "..\..MVC\Views\Card\Card.Simple.cshtml"
@@ -78,41 +78,41 @@ WriteLiteral("            <div");
 
 WriteLiteral(" class=\"col-lg-6\"");
 
-WriteLiteral(">\r\n                <img");
+WriteLiteral(">\n                <img");
 
 WriteLiteral(" class=\"img-fluid\"");
 
-WriteAttribute("src", Tuple.Create(" src=\"", 323), Tuple.Create("\"", 351)
+WriteAttribute("src", Tuple.Create(" src=\"", 314), Tuple.Create("\"", 342)
             
             #line 10 "..\..MVC\Views\Card\Card.Simple.cshtml"
-, Tuple.Create(Tuple.Create("", 329), Tuple.Create<System.Object, System.Int32>(Model.SelectedSizeUrl
+, Tuple.Create(Tuple.Create("", 320), Tuple.Create<System.Object, System.Int32>(Model.SelectedSizeUrl
             
             #line default
             #line hidden
-, 329), false)
+, 320), false)
 );
 
-WriteAttribute("title", Tuple.Create("  title=\"", 352), Tuple.Create("\"", 378)
+WriteAttribute("title", Tuple.Create("  title=\"", 343), Tuple.Create("\"", 369)
             
             #line 10 "..\..MVC\Views\Card\Card.Simple.cshtml"
-, Tuple.Create(Tuple.Create("", 361), Tuple.Create<System.Object, System.Int32>(Model.ImageTitle
+, Tuple.Create(Tuple.Create("", 352), Tuple.Create<System.Object, System.Int32>(Model.ImageTitle
             
             #line default
             #line hidden
-, 361), false)
+, 352), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\"", 379), Tuple.Create("\"", 412)
+WriteAttribute("alt", Tuple.Create(" alt=\"", 370), Tuple.Create("\"", 403)
             
             #line 10 "..\..MVC\Views\Card\Card.Simple.cshtml"
-                     , Tuple.Create(Tuple.Create("", 385), Tuple.Create<System.Object, System.Int32>(Model.ImageAlternativeText
+                     , Tuple.Create(Tuple.Create("", 376), Tuple.Create<System.Object, System.Int32>(Model.ImageAlternativeText
             
             #line default
             #line hidden
-, 385), false)
+, 376), false)
 );
 
-WriteLiteral("/>\r\n            </div>\r\n");
+WriteLiteral("/>\n            </div>\n");
 
             
             #line 12 "..\..MVC\Views\Card\Card.Simple.cshtml"
@@ -125,7 +125,7 @@ WriteLiteral("        <div");
 
 WriteLiteral(" class=\"col-lg-6\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 14 "..\..MVC\Views\Card\Card.Simple.cshtml"
@@ -150,7 +150,7 @@ WriteLiteral("                <h5>");
             
             #line default
             #line hidden
-WriteLiteral("</h5>\r\n");
+WriteLiteral("</h5>\n");
 
             
             #line 17 "..\..MVC\Views\Card\Card.Simple.cshtml"
@@ -178,7 +178,7 @@ WriteLiteral("                <p>");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n");
+WriteLiteral("</p>\n");
 
             
             #line 21 "..\..MVC\Views\Card\Card.Simple.cshtml"
@@ -201,14 +201,14 @@ WriteLiteral("                <a");
 
 WriteLiteral(" class=\"btn btn-primary\"");
 
-WriteAttribute("href", Tuple.Create(" href=\"", 897), Tuple.Create("\"", 938)
+WriteAttribute("href", Tuple.Create(" href=\"", 874), Tuple.Create("\"", 915)
             
             #line 24 "..\..MVC\Views\Card\Card.Simple.cshtml"
-, Tuple.Create(Tuple.Create("", 904), Tuple.Create<System.Object, System.Int32>(Html.UrlSanitize(Model.ActionUrl)
+, Tuple.Create(Tuple.Create("", 881), Tuple.Create<System.Object, System.Int32>(Html.UrlSanitize(Model.ActionUrl)
             
             #line default
             #line hidden
-, 904), false)
+, 881), false)
 );
 
 WriteLiteral(">");
@@ -220,7 +220,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral(" </a>\r\n");
+WriteLiteral(" </a>\n");
 
             
             #line 25 "..\..MVC\Views\Card\Card.Simple.cshtml"
@@ -229,7 +229,7 @@ WriteLiteral(" </a>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("        </div>\r\n    </div>\r\n</div>");
+WriteLiteral("        </div>\n    </div>\n</div>");
 
         }
     }

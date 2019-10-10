@@ -60,16 +60,16 @@ namespace SitefinityWebApp.ResourcePackages.Bootstrap4.MVC.Views.ImageGallery
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div");
+WriteLiteral("\n<div");
 
-WriteAttribute("class", Tuple.Create(" class=\"", 273), Tuple.Create("\"", 296)
+WriteAttribute("class", Tuple.Create(" class=\"", 266), Tuple.Create("\"", 289)
             
             #line 8 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 281), Tuple.Create<System.Object, System.Int32>(Model.CssClass
+, Tuple.Create(Tuple.Create("", 274), Tuple.Create<System.Object, System.Int32>(Model.CssClass
             
             #line default
             #line hidden
-, 281), false)
+, 274), false)
 );
 
 WriteLiteral(" ");
@@ -81,30 +81,30 @@ WriteLiteral(" ");
             
             #line default
             #line hidden
-WriteLiteral(">\r\n    <figure");
+WriteLiteral(">\n    <figure");
 
-WriteAttribute("aria-labelledby", Tuple.Create(" aria-labelledby=\"", 417), Tuple.Create("\"", 465)
+WriteAttribute("aria-labelledby", Tuple.Create(" aria-labelledby=\"", 409), Tuple.Create("\"", 457)
             
             #line 9 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 435), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ImageCaption")
+, Tuple.Create(Tuple.Create("", 427), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ImageCaption")
             
             #line default
             #line hidden
-, 435), false)
+, 427), false)
 );
 
-WriteLiteral(">    \r\n        <figcaption");
+WriteLiteral(">    \n        <figcaption");
 
 WriteLiteral(" class=\"h2\"");
 
-WriteAttribute("id", Tuple.Create(" id=\"", 503), Tuple.Create("\"", 538)
+WriteAttribute("id", Tuple.Create(" id=\"", 494), Tuple.Create("\"", 529)
             
             #line 10 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 508), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ImageCaption")
+, Tuple.Create(Tuple.Create("", 499), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ImageCaption")
             
             #line default
             #line hidden
-, 508), false)
+, 499), false)
 );
 
 WriteLiteral(" ");
@@ -125,11 +125,11 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</figcaption>        \r\n        <div");
+WriteLiteral("</figcaption>        \n        <div");
 
 WriteLiteral(" class=\"text-muted\"");
 
-WriteLiteral(">\r\n            <span");
+WriteLiteral(">\n            <span");
 
 WriteLiteral(" class=\"sr-only\"");
 
@@ -142,7 +142,7 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral(" </span>\r\n");
+WriteLiteral(" </span>\n");
 
 WriteLiteral("            ");
 
@@ -153,7 +153,7 @@ WriteLiteral("            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
 WriteLiteral("            ");
 
@@ -164,7 +164,7 @@ WriteLiteral("            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
 WriteLiteral("            ");
 
@@ -175,7 +175,7 @@ WriteLiteral("            ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n        </div>\r\n\r\n");
+WriteLiteral("\n        </div>\n\n");
 
 WriteLiteral("        ");
 
@@ -186,16 +186,16 @@ WriteLiteral("        ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n        \r\n        <p");
+WriteLiteral("\n        \n        <p");
 
-WriteAttribute("id", Tuple.Create(" id=\"", 1043), Tuple.Create("\"", 1082)
+WriteAttribute("id", Tuple.Create(" id=\"", 1024), Tuple.Create("\"", 1063)
             
             #line 20 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 1048), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ImageDescription")
+, Tuple.Create(Tuple.Create("", 1029), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ImageDescription")
             
             #line default
             #line hidden
-, 1048), false)
+, 1029), false)
 );
 
 WriteLiteral(" ");
@@ -216,39 +216,39 @@ WriteLiteral(">");
             
             #line default
             #line hidden
-WriteLiteral("</p>\r\n        <img");
+WriteLiteral("</p>\n        <img");
 
-WriteAttribute("aria-describedby", Tuple.Create(" aria-describedby=\"", 1221), Tuple.Create("\"", 1274)
+WriteAttribute("aria-describedby", Tuple.Create(" aria-describedby=\"", 1201), Tuple.Create("\"", 1254)
             
             #line 21 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 1240), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ImageDescription")
+, Tuple.Create(Tuple.Create("", 1220), Tuple.Create<System.Object, System.Int32>(Html.UniqueId("ImageDescription")
             
             #line default
             #line hidden
-, 1240), false)
+, 1220), false)
 );
 
-WriteAttribute("src", Tuple.Create(" src=\"", 1275), Tuple.Create("\"", 1306)
+WriteAttribute("src", Tuple.Create(" src=\"", 1255), Tuple.Create("\"", 1286)
             
             #line 21 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 1281), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.MediaUrl)
+, Tuple.Create(Tuple.Create("", 1261), Tuple.Create<System.Object, System.Int32>(Html.Raw(Model.MediaUrl)
             
             #line default
             #line hidden
-, 1281), false)
+, 1261), false)
 );
 
-WriteAttribute("alt", Tuple.Create(" alt=\'", 1307), Tuple.Create("\'", 1411)
+WriteAttribute("alt", Tuple.Create(" alt=\'", 1287), Tuple.Create("\'", 1391)
             
             #line 21 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-                        , Tuple.Create(Tuple.Create("", 1313), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(Model.Item.Fields.AlternativeText, @"[^\w\d_-]", "")
+                        , Tuple.Create(Tuple.Create("", 1293), Tuple.Create<System.Object, System.Int32>(System.Text.RegularExpressions.Regex.Replace(Model.Item.Fields.AlternativeText, @"[^\w\d_-]", "")
             
             #line default
             #line hidden
-, 1313), false)
+, 1293), false)
 );
 
-WriteLiteral("\r\n             ");
+WriteLiteral("\n             ");
 
             
             #line 22 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
@@ -257,7 +257,7 @@ WriteLiteral("\r\n             ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
 WriteLiteral("             ");
 
@@ -268,7 +268,7 @@ WriteLiteral("             ");
             
             #line default
             #line hidden
-WriteLiteral(" />\r\n    </figure>\r\n\r\n");
+WriteLiteral(" />\n    </figure>\n\n");
 
             
             #line 26 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
@@ -288,19 +288,19 @@ WriteLiteral("        <nav");
 
 WriteLiteral(" role=\"navigation\"");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 1628), Tuple.Create("\"", 1676)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 1601), Tuple.Create("\"", 1649)
             
             #line 28 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 1641), Tuple.Create<System.Object, System.Int32>(Html.Resource("PreviousNextImage")
+, Tuple.Create(Tuple.Create("", 1614), Tuple.Create<System.Object, System.Int32>(Html.Resource("PreviousNextImage")
             
             #line default
             #line hidden
-, 1641), false)
+, 1614), false)
 );
 
 WriteLiteral(" class=\"text-center clearfix\"");
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
             
             #line 29 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
@@ -317,7 +317,7 @@ WriteLiteral(">\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n");
+WriteLiteral("\n\n");
 
             
             #line 34 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
@@ -337,24 +337,24 @@ WriteLiteral("                <a");
 
 WriteLiteral(" class=\"sf-Gallery-prev--simple\"");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 2075), Tuple.Create("\"", 2123)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 2042), Tuple.Create("\"", 2090)
             
             #line 36 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 2088), Tuple.Create<System.Object, System.Int32>(Html.Resource("GoToPreviousImage")
+, Tuple.Create(Tuple.Create("", 2055), Tuple.Create<System.Object, System.Int32>(Html.Resource("GoToPreviousImage")
             
             #line default
             #line hidden
-, 2088), false)
+, 2055), false)
 );
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2124), Tuple.Create("\"", 2273)
+WriteAttribute("href", Tuple.Create(" href=\"", 2091), Tuple.Create("\"", 2240)
             
             #line 36 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-                          , Tuple.Create(Tuple.Create("", 2131), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.PreviousItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, previousItemIndex)
+                          , Tuple.Create(Tuple.Create("", 2098), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.PreviousItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, previousItemIndex)
             
             #line default
             #line hidden
-, 2131), false)
+, 2098), false)
 );
 
 WriteLiteral(">\r\n");
@@ -377,7 +377,7 @@ WriteLiteral("\r\n                </a>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 41 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
@@ -395,7 +395,7 @@ WriteLiteral("\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
             
             #line 46 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
@@ -415,27 +415,27 @@ WriteLiteral("                <a");
 
 WriteLiteral(" class=\"sf-Gallery-next--simple\"");
 
-WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 2690), Tuple.Create("\"", 2734)
+WriteAttribute("aria-label", Tuple.Create(" aria-label=\"", 2648), Tuple.Create("\"", 2692)
             
             #line 48 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-, Tuple.Create(Tuple.Create("", 2703), Tuple.Create<System.Object, System.Int32>(Html.Resource("GoToNextImage")
+, Tuple.Create(Tuple.Create("", 2661), Tuple.Create<System.Object, System.Int32>(Html.Resource("GoToNextImage")
             
             #line default
             #line hidden
-, 2703), false)
+, 2661), false)
 );
 
-WriteAttribute("href", Tuple.Create(" href=\"", 2735), Tuple.Create("\"", 2876)
+WriteAttribute("href", Tuple.Create(" href=\"", 2693), Tuple.Create("\"", 2834)
             
             #line 48 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
-                      , Tuple.Create(Tuple.Create("", 2742), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.NextItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, nextItemIndex)
+                      , Tuple.Create(Tuple.Create("", 2700), Tuple.Create<System.Object, System.Int32>(HyperLinkHelpers.GetDetailPageUrl(Model.NextItem, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, ViewBag.UrlKeyPrefix, nextItemIndex)
             
             #line default
             #line hidden
-, 2742), false)
+, 2700), false)
 );
 
-WriteLiteral(">\r\n");
+WriteLiteral(">\n");
 
 WriteLiteral("                    ");
 
@@ -446,7 +446,7 @@ WriteLiteral("                    ");
             
             #line default
             #line hidden
-WriteLiteral("\r\n                </a>\r\n");
+WriteLiteral("\n                </a>\n");
 
             
             #line 51 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
@@ -455,7 +455,7 @@ WriteLiteral("\r\n                </a>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("        </nav>\r\n");
+WriteLiteral("        </nav>\n");
 
             
             #line 53 "..\..MVC\Views\ImageGallery\Detail.DetailPage.cshtml"
@@ -479,7 +479,7 @@ WriteLiteral("        </nav>\r\n");
             
             #line default
             #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\n");
 
 WriteLiteral("    ");
 
@@ -490,7 +490,7 @@ Write(Html.CommentsList(@Model.Item.DataItem));
             
             #line default
             #line hidden
-WriteLiteral("\r\n\r\n</div>");
+WriteLiteral("\n\n</div>");
 
         }
     }
