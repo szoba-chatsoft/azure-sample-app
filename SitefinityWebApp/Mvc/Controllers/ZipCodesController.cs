@@ -6,7 +6,7 @@ using Telerik.Sitefinity.Mvc;
 
 namespace SitefinityWebApp.Mvc.Controllers
 {
-
+     
     // The ControllerToolboxItem attribute registers the widget in Sitefinity backend
     [ControllerToolboxItem(Name = "ZipCodeWidget", Title = "ZipCode Widget", SectionName = "Classifications")]
 
